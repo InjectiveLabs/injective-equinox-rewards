@@ -41,6 +41,7 @@ $baseCompoundedDailyApy = 10 ^ (log10 1.15 / 365)
 $boosts = {1.00, 1.14} 
 $dailyAPYWithRewards = $baseDailyApy * $boosts
 $dailyReturns = $preStakedAmount * $dailyApyWithRewards
+$dailyCompoundedReturns = $baseCompoundedDailyApy * $boosts * $preStakedAmount
 
 $daysOfEarlyAdopter = {0, 2}
 $totalEarlyAdopter = $daysOfEarlyAdopter * $dailyReturns * 4
@@ -50,7 +51,7 @@ $totalPreStake = $daysOfPreStake * $dailyReturns
 
 $totalEquinoxDays = 97 days (from March 19 till 25th of June)
 $totalDaysParticipating = $totalEquinoxDays - $daysJoinedSinceEquinoxStart
-$totalRemaining = $baseCompoundedDailyApy * ($totalDaysParticipating - $daysOfPreStake - $daysOfEarlyAdopter)
+$totalRemaining = $dailyCompoundedReturns * ($totalDaysParticipating - $daysOfPreStake - $daysOfEarlyAdopter)
 
 $total = $totalPreStake + $totalEarlyAdopter + $totalRemaining
 ```
