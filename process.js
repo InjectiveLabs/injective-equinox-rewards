@@ -118,8 +118,6 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
     }),
   );
 
-  usersWithRewards.sort((a, b) => b.total - a.total);
-
   await fs.writeFile(
     './json/eligible-users-with-rewards.json',
     JSON.stringify(usersWithRewards, null, 1),

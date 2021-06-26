@@ -449,6 +449,7 @@
    }
   ],
   "txs": [
+   "MsgVote",
    "MsgBeginRedelegate",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -2346,6 +2347,10 @@
    }
   ],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgRequestRedemption",
    "MsgCreateDerivativeMarketOrder",
    "MsgCreateDerivativeLimitOrder",
    "MsgCreateDerivativeLimitOrder",
@@ -2958,6 +2963,7 @@
    }
   ],
   "txs": [
+   "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
    "MsgCreateSpotLimitOrder",
    "MsgCancelSpotOrder",
@@ -4805,6 +4811,9 @@
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -5061,6 +5070,11 @@
    }
   ],
   "txs": [
+   "MsgBeginRedelegate",
+   "MsgDelegate",
+   "MsgBeginRedelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -7073,6 +7087,16 @@
   "injAddress": "inj19x0uyqvmhvdsgj9lmxumjfn6nftd90pg43jygt",
   "proposals": [
    {
+    "@type": "/injective.exchange.v1beta1.SpotMarketLaunchProposal",
+    "title": "INJ/POND",
+    "ticker": "INJ/POND",
+    "base_denom": "inj",
+    "description": "INJ/POND",
+    "quote_denom": "peggy0x22dd9a02b90Ff2dCDA32c5eD9449bA3D386c6A6c",
+    "min_price_tick_size": "0.001000000000000000",
+    "min_quantity_tick_size": "0.001000000000000000"
+   },
+   {
     "@type": "/injective.exchange.v1beta1.ExpiryFuturesMarketLaunchProposal",
     "title": "INJ/ETH Futures",
     "expiry": "1624665600",
@@ -7329,6 +7353,107 @@
    }
   ],
   "txs": [
+   "MsgBeginRedelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgVote",
+   "MsgSubmitProposal",
+   "MsgCreateDerivativeMarketOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotMarketOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotMarketOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotMarketOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
    "MsgCreateSpotMarketOrder",
    "MsgCreateDerivativeMarketOrder",
    "MsgCreateDerivativeMarketOrder",
@@ -9508,6 +9633,19 @@
    }
   ],
   "txs": [
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCancelSpotOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgDeposit",
+   "MsgWithdrawDelegatorReward",
+   "MsgBeginRedelegate",
+   "MsgBeginRedelegate",
    "withdraw_delegator_reward",
    "withdraw_delegator_reward",
    "begin_redelegate",
@@ -10255,6 +10393,12 @@
    }
   ],
   "txs": [
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotMarketOrder",
+   "MsgDeposit",
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -10471,6 +10615,8 @@
   "injAddress": "inj1gsvy6h2s3ll7p6q0dlt7t04v76vau6afugayht",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgBeginRedelegate",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -11053,6 +11199,27 @@
    "MsgCreateDerivativeLimitOrder",
    "MsgCreateDerivativeLimitOrder",
    "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeMarketOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeMarketOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCancelDerivativeOrder",
+   "MsgCancelDerivativeOrder",
+   "MsgCancelDerivativeOrder",
+   "MsgCancelDerivativeOrder",
+   "MsgCancelDerivativeOrder",
+   "MsgCancelDerivativeOrder",
+   "MsgCancelDerivativeOrder",
+   "MsgCancelDerivativeOrder",
+   "MsgCancelDerivativeOrder",
+   "MsgCreateDerivativeMarketOrder",
+   "MsgCancelDerivativeOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
    "MsgCreateDerivativeLimitOrder",
    "MsgCreateDerivativeLimitOrder",
    "MsgCreateDerivativeLimitOrder",
@@ -11509,6 +11676,8 @@
    }
   ],
   "txs": [
+   "MsgWithdrawDelegatorReward",
+   "MsgUnderwrite",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -13203,6 +13372,10 @@
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -14152,6 +14325,7 @@
    }
   ],
   "txs": [
+   "MsgCreateDerivativeMarketOrder",
    "MsgCancelSpotOrder",
    "MsgCancelSpotOrder",
    "MsgCreateSpotLimitOrder",
@@ -14340,6 +14514,7 @@
   "injAddress": "inj1l4sajf076lpmlpclxn62w09ul2cx6anealyvm7",
   "proposals": [],
   "txs": [
+   "MsgWithdrawDelegatorReward",
    "withdraw_delegator_reward"
   ]
  },
@@ -16049,6 +16224,9 @@
    }
   ],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgDelegate",
    "MsgDelegate",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -20144,6 +20322,8 @@
   "injAddress": "inj1fg60he56ckvvut08gvua9tmxfslfwzzj3lkfps",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "delegate",
    "withdraw_delegator_reward",
    "begin_unbonding",
@@ -20229,6 +20409,7 @@
    }
   ],
   "txs": [
+   "MsgBeginRedelegate",
    "withdraw_delegator_reward",
    "withdraw_delegator_reward",
    "begin_redelegate",
@@ -20634,6 +20815,11 @@
    }
   ],
   "txs": [
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotMarketOrder",
+   "MsgDeposit",
    "begin_redelegate",
    "delegate",
    "submit_proposal",
@@ -20766,6 +20952,8 @@
   "injAddress": "inj14w57j67sk9wvjxylxm8qmxa6snqh9fu0r90gkf",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
@@ -20971,6 +21159,13 @@
    }
   ],
   "txs": [
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateDerivativeMarketOrder",
+   "MsgCreateDerivativeMarketOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgDeposit",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
    "MsgUndelegate",
@@ -22031,12 +22226,21 @@
    {
     "amount": "361.16",
     "timestamp": "1618789163"
+   },
+   {
+    "amount": "912.67",
+    "timestamp": "1624617096"
    }
   ],
-  "totalPreStaked": "3559.88",
+  "totalPreStaked": "4472.55",
   "injAddress": "inj1tph0897ufknhj6snl6f6w5zj72ll9t04axgs9s",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgDelegate",
+   "MsgVote",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "begin_redelegate",
    "delegate",
    "vote",
@@ -24353,6 +24557,11 @@
    }
   ],
   "txs": [
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -24914,6 +25123,14 @@
    }
   ],
   "txs": [
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgBeginRedelegate",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -26020,6 +26237,13 @@
    }
   ],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgVote",
    "MsgDeposit",
    "MsgWithdraw",
    "MsgCreateSpotMarketOrder",
@@ -28492,6 +28716,8 @@
   "injAddress": "inj1w4ktn3w7aa5q2l5g32wcvt9pkj0xrscak2as5c",
   "proposals": [],
   "txs": [
+   "MsgBeginRedelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgUndelegate",
    "MsgWithdrawDelegatorReward",
@@ -29698,6 +29924,7 @@
   "injAddress": "inj1fvw2u0qx30fnt6l73wlmfynkmes587pvq874f9",
   "proposals": [],
   "txs": [
+   "MsgWithdrawDelegatorReward",
    "withdraw_delegator_reward",
    "withdraw_delegator_reward",
    "vote",
@@ -30153,6 +30380,8 @@
    }
   ],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -31215,6 +31444,8 @@
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgDelegate",
    "MsgBeginRedelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -31802,6 +32033,9 @@
    }
   ],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgDeposit",
    "MsgWithdraw",
    "MsgCreateSpotMarketOrder",
@@ -35142,6 +35376,8 @@
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgVote",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -35372,6 +35608,9 @@
   "injAddress": "inj13e5v49x3uhegge3wd5uyah2p6yrrvxjchec35z",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "delegate",
    "delegate",
    "delegate",
@@ -37733,6 +37972,9 @@
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "delegate",
    "withdraw_delegator_reward",
    "withdraw_delegator_reward",
@@ -37777,6 +38019,82 @@
   "injAddress": "inj1fu9ejf082tmz2k9ce4uv0adz7c7py0vyagv7g0",
   "proposals": [],
   "txs": [
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeMarketOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeMarketOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeMarketOrder",
+   "MsgBeginRedelegate",
+   "MsgBeginRedelegate",
+   "MsgDelegate",
+   "MsgWithdraw",
+   "MsgDeposit",
+   "MsgWithdraw",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCancelSpotOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCancelSpotOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCancelSpotOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCancelSpotOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCancelSpotOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgDeposit",
    "MsgUndelegate",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -38008,6 +38326,7 @@
   "injAddress": "inj133dzudyh708yhmx6fmd5g6fn6vktyjr5m0ue8r",
   "proposals": [],
   "txs": [
+   "MsgUndelegate",
    "send_to_eth",
    "withdraw_delegator_reward",
    "delegate"
@@ -38074,6 +38393,8 @@
   "injAddress": "inj1zlexcela2p6dskdwv0sqeadnl4uncpuxxxpfen",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -41067,6 +41388,7 @@
    }
   ],
   "txs": [
+   "MsgDelegate",
    "MsgUndelegate",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -41806,6 +42128,8 @@
   "injAddress": "inj1c8n5wz4h3kddf8ksqkmvlrpf60y7vlxt6hfma4",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
@@ -43053,6 +43377,8 @@
    }
   ],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgBeginRedelegate",
    "MsgDelegate",
    "MsgSubmitProposal",
@@ -44561,6 +44887,8 @@
    }
   ],
   "txs": [
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgVote",
    "MsgDelegate",
    "MsgSubmitProposal",
@@ -45232,6 +45560,10 @@
    }
   ],
   "txs": [
+   "MsgDeposit",
+   "MsgCreateDerivativeLimitOrder",
+   "MsgCreateDerivativeMarketOrder",
+   "MsgCreateDerivativeMarketOrder",
    "MsgCreateDerivativeMarketOrder",
    "MsgCreateDerivativeMarketOrder",
    "MsgCreateDerivativeLimitOrder",
@@ -45481,6 +45813,10 @@
   "injAddress": "inj18z869rn8puxl69vr8cap4dc6w29v6x6shqayza",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -45986,6 +46322,8 @@
   "txs": [
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -46091,6 +46429,17 @@
    }
   ],
   "txs": [
+   "MsgCreateSpotLimitOrder",
+   "MsgCancelSpotOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCancelSpotOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgCreateSpotLimitOrder",
+   "MsgDeposit",
+   "MsgDeposit",
+   "MsgWithdraw",
+   "MsgWithdraw",
+   "MsgCreateSpotLimitOrder",
    "MsgCreateDerivativeMarketOrder",
    "MsgCreateSpotMarketOrder",
    "MsgCreateDerivativeMarketOrder",
@@ -46308,12 +46657,18 @@
    {
     "amount": "356.96",
     "timestamp": "1619100501"
+   },
+   {
+    "amount": "100.18",
+    "timestamp": "1624605668"
    }
   ],
-  "totalPreStaked": "356.96",
+  "totalPreStaked": "457.14",
   "injAddress": "inj1luzk28xzh734gek29a99az7n49qpwgxyp976v9",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgDelegate",
    "MsgDelegate",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -51004,6 +51359,9 @@
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -51741,6 +52099,8 @@
   "injAddress": "inj19ddfealxj3yj40e6dq9t0vqgzsxdj630twtwc0",
   "proposals": [],
   "txs": [
+   "MsgUndelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate"
   ]
  },
@@ -52061,6 +52421,8 @@
   "injAddress": "inj177ztcqkuapw9hq0z7ek9ps3pdptfglqlqhv0y6",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
@@ -53340,6 +53702,8 @@
   "injAddress": "inj1wg0vln4w2a78hfmnhugytmxdsl0j9ghwmhwct2",
   "proposals": [],
   "txs": [
+   "MsgUndelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgBeginRedelegate",
    "MsgVote",
    "MsgWithdrawDelegatorReward",
@@ -53689,6 +54053,7 @@
   "injAddress": "inj1ggrry45u4nu7aw3cl6zv84w9c2ywyj5926pr9c",
   "proposals": [],
   "txs": [
+   "MsgWithdrawDelegatorReward",
    "delegate"
   ]
  },
@@ -53780,6 +54145,8 @@
   "injAddress": "inj1fvfrkjz6jdvpvl2yyz6qxtjcasvvmeckxkllv4",
   "proposals": [],
   "txs": [
+   "MsgUndelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgCreateSpotLimitOrder",
    "MsgCancelSpotOrder",
    "MsgCreateDerivativeLimitOrder",
@@ -54256,6 +54623,7 @@
   "proposals": [],
   "txs": [
    "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "delegate"
   ]
  },
@@ -54380,6 +54748,9 @@
   "injAddress": "inj1x87nm7farwvw97zw7jpqpww5hxjdfw6p9p8j29",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgSendToEth",
+   "MsgWithdrawDelegatorReward",
    "MsgUndelegate",
    "MsgWithdrawDelegatorReward",
    "send_to_eth",
@@ -54510,6 +54881,12 @@
   "injAddress": "inj1ph6xavsdxhh27wqw7qfmpssy74kwhcvfesnr8f",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgBeginRedelegate",
+   "MsgBeginRedelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -55280,6 +55657,12 @@
   "injAddress": "inj18hrp7se39k3s94s797x9ngmuffjctasvz053yz",
   "proposals": [],
   "txs": [
+   "MsgBeginRedelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -55872,6 +56255,11 @@
   "injAddress": "inj1ewjqhkydwrk8kvdgnrs6t5w0lh53q60j5t2ga6",
   "proposals": [],
   "txs": [
+   "MsgVote",
+   "MsgUndelegate",
+   "MsgUndelegate",
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDeposit",
    "delegate",
    "begin_unbonding",
@@ -56091,12 +56479,19 @@
    {
     "amount": "18.27",
     "timestamp": "1624394274"
+   },
+   {
+    "amount": "50.3",
+    "timestamp": "1624631717"
    }
   ],
-  "totalPreStaked": "453.74",
+  "totalPreStaked": "504.04",
   "injAddress": "inj1n0ysngux5ppmhvc0ux4d8lslqmvvf7xl0zpknm",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -56136,6 +56531,10 @@
   "injAddress": "inj12e88xrzquuzfrl4mqg8mswvl4cegqejrl76w9a",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -56363,12 +56762,17 @@
    {
     "amount": "186.26",
     "timestamp": "1621555352"
+   },
+   {
+    "amount": "112.52",
+    "timestamp": "1624652190"
    }
   ],
-  "totalPreStaked": "186.26",
+  "totalPreStaked": "298.78",
   "injAddress": "inj10nkkrfsj56n0vsxncndzl9gz97xne8st2d5ptv",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
    "withdraw_delegator_reward",
    "delegate",
    "delegate"
@@ -57025,6 +57429,13 @@
   "injAddress": "inj1uyqz52g8w7eux4dwpyz84hrqazanpk34lg9r9l",
   "proposals": [],
   "txs": [
+   "MsgBeginRedelegate",
+   "MsgBeginRedelegate",
+   "MsgBeginRedelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -57703,6 +58114,9 @@
   "injAddress": "inj1wdxhn07z8xm30dndruxgfr6h7979vyuq9vcnvt",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgSendToEth",
+   "MsgWithdrawDelegatorReward",
    "MsgSendToEth",
    "MsgDeposit",
    "MsgWithdrawDelegatorReward",
@@ -58675,6 +59089,8 @@
   "injAddress": "inj10rxeur523p9wmuad65f32fpm0lwqyqls0fgqze",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgBeginRedelegate",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -58749,6 +59165,8 @@
   "injAddress": "inj1kenzahds5sgmq34efk300m7l3u7nphjereyuzn",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgBeginRedelegate",
    "MsgBeginRedelegate",
    "MsgDelegate",
@@ -58823,6 +59241,7 @@
   "injAddress": "inj19cxehunlvnh40qjtnefuv0r4xgjmymqftagr5j",
   "proposals": [],
   "txs": [
+   "MsgVote",
    "MsgUnderwrite",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
@@ -59123,6 +59542,8 @@
   "injAddress": "inj1r3ef99hj56gnxgkus2stq30t7u60t4q5jmvn9p",
   "proposals": [],
   "txs": [
+   "MsgDelegate",
+   "MsgDelegate",
    "MsgUndelegate",
    "MsgBeginRedelegate",
    "MsgDelegate",
@@ -59381,6 +59802,9 @@
   "proposals": [],
   "txs": [
    "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
+   "MsgVote",
+   "MsgDelegate",
    "MsgBeginRedelegate",
    "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
@@ -59608,6 +60032,8 @@
   "injAddress": "inj1c4hwjn4v3rph928s6ltf5qh6cwd5ps2hacvf8j",
   "proposals": [],
   "txs": [
+   "MsgVote",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgUndelegate",
    "MsgBeginRedelegate",
@@ -59719,6 +60145,7 @@
   "injAddress": "inj1ep9fp49gh8ru6m337vwp9jsm80jjr654uztxyr",
   "proposals": [],
   "txs": [
+   "MsgWithdrawDelegatorReward",
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgUndelegate",
@@ -59878,6 +60305,9 @@
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
+   "MsgWithdrawDelegatorReward",
+   "MsgDelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgWithdrawDelegatorReward",
    "MsgDelegate",
@@ -59900,7 +60330,9 @@
   "totalPreStaked": "57.96",
   "injAddress": "inj1up094jeqrhxtxt6p60s9m3tr0px7mpzlgyczl8",
   "proposals": [],
-  "txs": []
+  "txs": [
+   "MsgDelegate"
+  ]
  },
  {
   "address": "0xcd4f2558e69b1c5f5f4d47ec199523883d2df9e0",
@@ -60077,7 +60509,9 @@
   "totalPreStaked": "47",
   "injAddress": "inj1du6k9fgxf04x8x7xcl2ylwtf29ey4l6htsnclr",
   "proposals": [],
-  "txs": []
+  "txs": [
+   "MsgDelegate"
+  ]
  },
  {
   "address": "0x68b6db4929efc293ac3aba2ab33c17841c4ecd7e",
@@ -61119,6 +61553,9 @@
   "injAddress": "inj1xwpefjrs7066t0ymwpmuuj0nugtvrkr06fltfn",
   "proposals": [],
   "txs": [
+   "MsgWithdrawDelegatorReward",
+   "MsgBeginRedelegate",
+   "MsgWithdrawDelegatorReward",
    "MsgDelegate",
    "MsgDelegate",
    "MsgDelegate",
@@ -61508,5 +61945,114 @@
   "injAddress": "inj1vha7zuy6an88n8eg9s0p32svq3jev6v44rxqyp",
   "proposals": [],
   "txs": []
+ },
+ {
+  "address": "0x5ff134cfad2eae7be1826d8614209307ed7336cd",
+  "deposits": [
+   {
+    "amount": "58.74",
+    "timestamp": "1624605865"
+   }
+  ],
+  "totalPreStaked": "58.74",
+  "injAddress": "inj1tlcnfnad96h8hcvzdkrpggynqlkhxdkdu9zvgx",
+  "proposals": [],
+  "txs": []
+ },
+ {
+  "address": "0xdd4d6015232542ad1a273df1a21de8091fbe0dd0",
+  "deposits": [
+   {
+    "amount": "10",
+    "timestamp": "1624619387"
+   }
+  ],
+  "totalPreStaked": "10",
+  "injAddress": "inj1m4xkq9fry4p26x388hc6y80gpy0murwshmmsw0",
+  "proposals": [],
+  "txs": []
+ },
+ {
+  "address": "0x0d9f76cd30cbc035e9e28decd29f1bf279b7c7b7",
+  "deposits": [
+   {
+    "amount": "596.01",
+    "timestamp": "1624628089"
+   }
+  ],
+  "totalPreStaked": "596.01",
+  "injAddress": "inj1pk0hdnfse0qrt60z3hkd98cm7fum03ah8j0d62",
+  "proposals": [],
+  "txs": [
+   "MsgWithdrawDelegatorReward",
+   "MsgBeginRedelegate",
+   "MsgBeginRedelegate",
+   "MsgBeginRedelegate",
+   "MsgBeginRedelegate",
+   "MsgBeginRedelegate",
+   "MsgDelegate",
+   "MsgDelegate",
+   "MsgDelegate",
+   "MsgDelegate",
+   "MsgDelegate"
+  ]
+ },
+ {
+  "address": "0x0c5f747dd7648387923c27071c8fe4706e15d7c4",
+  "deposits": [
+   {
+    "amount": "748.38",
+    "timestamp": "1624643055"
+   }
+  ],
+  "totalPreStaked": "748.38",
+  "injAddress": "inj1p30hglwhvjpc0y3uyur3erlywphpt47y5yzfdn",
+  "proposals": [],
+  "txs": []
+ },
+ {
+  "address": "0x8d37a11a65b4f2c541af1312bc44f74a078160c7",
+  "deposits": [
+   {
+    "amount": "1154476.98",
+    "timestamp": "1624649006"
+   }
+  ],
+  "totalPreStaked": "1154476.98",
+  "injAddress": "inj135m6zxn9knev2sd0zvftc38hfgrczcx82jhzdg",
+  "proposals": [],
+  "txs": [
+   "MsgDelegate"
+  ]
+ },
+ {
+  "address": "0x320bb16ad49c27825e619a1ce658aeb4bcd68af0",
+  "deposits": [
+   {
+    "amount": "620895.09",
+    "timestamp": "1624651759"
+   }
+  ],
+  "totalPreStaked": "620895.09",
+  "injAddress": "inj1xg9mz6k5nsncyhnpngwwvk9wkj7ddzhszd4w4j",
+  "proposals": [],
+  "txs": [
+   "MsgDelegate"
+  ]
+ },
+ {
+  "address": "0x0faa1b275f1a8fb9a74a4bd2d057b68e6838914b",
+  "deposits": [
+   {
+    "amount": "98704.96",
+    "timestamp": "1624652293"
+   }
+  ],
+  "totalPreStaked": "98704.96",
+  "injAddress": "inj1p74pkf6lr28mnf62f0fdq4ak3e5r3y2te2qrgh",
+  "proposals": [],
+  "txs": [
+   "MsgDelegate"
+  ]
  }
 ]

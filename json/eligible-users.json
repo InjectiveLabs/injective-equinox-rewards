@@ -4312,9 +4312,13 @@
    {
     "amount": "361.16",
     "timestamp": "1618789163"
+   },
+   {
+    "amount": "912.67",
+    "timestamp": "1624617096"
    }
   ],
-  "totalPreStaked": "3559.88",
+  "totalPreStaked": "4472.55",
   "injAddress": "inj1tph0897ufknhj6snl6f6w5zj72ll9t04axgs9s"
  },
  {
@@ -11431,9 +11435,13 @@
    {
     "amount": "356.96",
     "timestamp": "1619100501"
+   },
+   {
+    "amount": "100.18",
+    "timestamp": "1624605668"
    }
   ],
-  "totalPreStaked": "356.96",
+  "totalPreStaked": "457.14",
   "injAddress": "inj1luzk28xzh734gek29a99az7n49qpwgxyp976v9"
  },
  {
@@ -15701,9 +15709,13 @@
    {
     "amount": "18.27",
     "timestamp": "1624394274"
+   },
+   {
+    "amount": "50.3",
+    "timestamp": "1624631717"
    }
   ],
-  "totalPreStaked": "453.74",
+  "totalPreStaked": "504.04",
   "injAddress": "inj1n0ysngux5ppmhvc0ux4d8lslqmvvf7xl0zpknm"
  },
  {
@@ -15775,9 +15787,13 @@
    {
     "amount": "186.26",
     "timestamp": "1621555352"
+   },
+   {
+    "amount": "112.52",
+    "timestamp": "1624652190"
    }
   ],
-  "totalPreStaked": "186.26",
+  "totalPreStaked": "298.78",
   "injAddress": "inj10nkkrfsj56n0vsxncndzl9gz97xne8st2d5ptv"
  },
  {
@@ -18655,5 +18671,82 @@
   ],
   "totalPreStaked": "263.4",
   "injAddress": "inj1vha7zuy6an88n8eg9s0p32svq3jev6v44rxqyp"
+ },
+ {
+  "address": "0x5ff134cfad2eae7be1826d8614209307ed7336cd",
+  "deposits": [
+   {
+    "amount": "58.74",
+    "timestamp": "1624605865"
+   }
+  ],
+  "totalPreStaked": "58.74",
+  "injAddress": "inj1tlcnfnad96h8hcvzdkrpggynqlkhxdkdu9zvgx"
+ },
+ {
+  "address": "0xdd4d6015232542ad1a273df1a21de8091fbe0dd0",
+  "deposits": [
+   {
+    "amount": "10",
+    "timestamp": "1624619387"
+   }
+  ],
+  "totalPreStaked": "10",
+  "injAddress": "inj1m4xkq9fry4p26x388hc6y80gpy0murwshmmsw0"
+ },
+ {
+  "address": "0x0d9f76cd30cbc035e9e28decd29f1bf279b7c7b7",
+  "deposits": [
+   {
+    "amount": "596.01",
+    "timestamp": "1624628089"
+   }
+  ],
+  "totalPreStaked": "596.01",
+  "injAddress": "inj1pk0hdnfse0qrt60z3hkd98cm7fum03ah8j0d62"
+ },
+ {
+  "address": "0x0c5f747dd7648387923c27071c8fe4706e15d7c4",
+  "deposits": [
+   {
+    "amount": "748.38",
+    "timestamp": "1624643055"
+   }
+  ],
+  "totalPreStaked": "748.38",
+  "injAddress": "inj1p30hglwhvjpc0y3uyur3erlywphpt47y5yzfdn"
+ },
+ {
+  "address": "0x8d37a11a65b4f2c541af1312bc44f74a078160c7",
+  "deposits": [
+   {
+    "amount": "1154476.98",
+    "timestamp": "1624649006"
+   }
+  ],
+  "totalPreStaked": "1154476.98",
+  "injAddress": "inj135m6zxn9knev2sd0zvftc38hfgrczcx82jhzdg"
+ },
+ {
+  "address": "0x320bb16ad49c27825e619a1ce658aeb4bcd68af0",
+  "deposits": [
+   {
+    "amount": "620895.09",
+    "timestamp": "1624651759"
+   }
+  ],
+  "totalPreStaked": "620895.09",
+  "injAddress": "inj1xg9mz6k5nsncyhnpngwwvk9wkj7ddzhszd4w4j"
+ },
+ {
+  "address": "0x0faa1b275f1a8fb9a74a4bd2d057b68e6838914b",
+  "deposits": [
+   {
+    "amount": "98704.96",
+    "timestamp": "1624652293"
+   }
+  ],
+  "totalPreStaked": "98704.96",
+  "injAddress": "inj1p74pkf6lr28mnf62f0fdq4ak3e5r3y2te2qrgh"
  }
 ]
