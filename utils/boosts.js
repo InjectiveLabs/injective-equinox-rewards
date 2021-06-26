@@ -89,8 +89,8 @@ const checkProposalBoost = messageTypes => {
 
 const checkReDelegateBoost = messageTypes => {
   return (
-    messageTypes.includes(RewardMessageTypes.MsgMarketProposal) ||
-    messageTypes.includes(RewardMessageTypes.MarketProposal)
+    messageTypes.includes(RewardMessageTypes.MsgReDelegate) ||
+    messageTypes.includes(RewardMessageTypes.ReDelegate)
   );
 };
 
