@@ -37,7 +37,7 @@ $ yarn process
 
 ```bash
 $baseDailyApyPercentage = 0.15
-$baseDailyApy = $baseDailyApyPercentage / 365 / 100
+$baseDailyApy = $baseDailyApyPercentage / 365
 $boosts = {0, 0.14} 
 $dailyReturnsWithoutBoost = $baseDailyApy * $preStakedAmount
 $dailyReturns = $preStakedAmount * ($baseDailyApyPercentage + $boosts)
