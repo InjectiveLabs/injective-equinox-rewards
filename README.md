@@ -38,14 +38,15 @@ $ yarn process
 ```bash
 $baseDailyApy = 15 / 365 / 100
 $boosts = {1.00, 1.14} 
-$dailyAPYWithRewards = $baseDailyApy * $boosts
-$dailyReturns = $preStakedAmount * $dailyApyWithRewards
+$dailyReturnsWithoutBoost = $baseDailyApy * $preStakedAmount
+$dailyReturns = $preStakedAmount * $baseDailyApy * $boosts
+
 
 $daysOfEarlyAdopter = {0, 2}
-$totalEarlyAdopter = $daysOfEarlyAdopter * $baseDailyApy * 4
+$totalEarlyAdopter = $daysOfEarlyAdopter * $dailyReturnsWithoutBoost * 4
 
 $daysOfPreStake = {0, 12}
-$totalPreStake = $daysOfPreStake * $baseDailyApy
+$totalPreStake = $daysOfPreStake * $dailyReturnsWithoutBoost
 
 $totalEquinoxDays = 97 days (from March 19 till 25th of June)
 $totalDaysParticipating = $totalEquinoxDays - $daysJoinedSinceEquinoxStart
