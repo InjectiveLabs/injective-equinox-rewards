@@ -40,7 +40,7 @@ $baseDailyApyPercentage = 0.15
 $baseDailyApy = $baseDailyApyPercentage / 365
 $boosts = {0, 0.14} 
 $dailyReturnsWithoutBoost = $baseDailyApy * $preStakedAmount
-$dailyReturns = $preStakedAmount * ($baseDailyApyPercentage + $boosts) / 365
+$dailyReturns = $preStakedAmount * (($baseDailyApyPercentage + $boosts) / 365)
 
 
 $daysOfEarlyAdopter = {0, 2}
