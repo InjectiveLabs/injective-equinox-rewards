@@ -85,11 +85,13 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
         const totalDaysParticipating =
           daysSinceEquinoxStart -
           getDaysSinceTimestamp(equinoxStartDate, userTimestamp);
+        const totalDaysRemaining =
+          totalDaysParticipating - totalEarlyAdopterDays - totalPreStakeDays;
 
         const earlyAdopter = totalEarlyAdopterDays * dailyBaseReturns * 4;
         const preStake = totalPreStakeDays * dailyBaseReturns;
         const remaining = new BigNumber(deposit.amount).times(
-          dailyCompoundedInterestRate.pow(totalDaysParticipating) - 1,
+          dailyCompoundedInterestRate.pow(totalDaysRemaining) - 1,
         );
         const remainingWithBoost = remaining.times(boostFactor);
         const totalForCurrentDeposit = new BigNumber(0)
