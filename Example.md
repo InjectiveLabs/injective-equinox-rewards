@@ -56,11 +56,14 @@ Giving him a total boost of 11%.
 ```bash
 # 1000 INJ deposited
 
-# The user, FOR THIS DEPOSIT, was pre-staking the whole period, i.e daysOfPreStake = 12, giving him totalPreStake = 12 * 1000 * dailyApyForPreStake = 12 * 1000 * 0.0004109589 = 4.9315068 INJ
+# The user, FOR THIS DEPOSIT, was pre-staking the whole period, 
+# i.e daysOfPreStake = 12, giving him totalPreStake = 12 * 1000 * dailyApyForPreStake = 12 * 1000 * 0.0004109589 = 4.9315068 INJ
 
-# The user, FOR THIS DEPOSIT, was an early adopter the whole period, i.e, daysOfEarlyAdopters = 2, giving him totalEarlyAdopter = 2 * 1000 * dailyApyForEarlyAdopters = 2 * 1000 * 0.00164383561 = 3.28767122 INJ
+# The user, FOR THIS DEPOSIT, was an early adopter the whole period, 
+# i.e, daysOfEarlyAdopters = 2, giving him totalEarlyAdopter = 2 * 1000 * dailyApyForEarlyAdopters = 2 * 1000 * 0.00164383561 = 3.28767122 INJ
 
-# The user, FOR THIS DEPOSIT, participated in Equinox Staking for the whole period, i.e 87 days, giving him totalRemaining = (dailyCompoundedInterestRate ^ days - 1) * boosts * 1000 =  (1.00038272 ^ 87 - 1) * 1.11 * 1000 = 37.5741565448 INJ
+# The user, FOR THIS DEPOSIT, participated in Equinox Staking for the whole period, 
+# i.e 87 days, giving him totalRemaining = (dailyCompoundedInterestRate ^ days - 1) * boosts * 1000 =  (1.00038272 ^ 87 - 1) * 1.11 * 1000 = 37.5741565448 INJ
 
 # This means, for this Deposit #1, the user got: Total = 4.9315068 + 3.28767122 + 37.5741565448 = 45.7933345648 INJ
 
@@ -70,11 +73,14 @@ Giving him a total boost of 11%.
 ```bash
 # 500 INJ deposited
 
-# The user, FOR THIS DEPOSIT, was not pre-staking, i.e daysOfPreStake = 0, giving him totalPreStake = 0 * 1000 * dailyApyForPreStake = 12 * 1000 * 0.0004109589 = 0 INJ
+# The user, FOR THIS DEPOSIT, was not pre-staking, 
+# i.e daysOfPreStake = 0, giving him totalPreStake = 0 * 1000 * dailyApyForPreStake = 12 * 1000 * 0.0004109589 = 0 INJ
 
-# The user, FOR THIS DEPOSIT, was an early adopter the whole period, i.e, daysOfEarlyAdopters = 2, giving him totalEarlyAdopter = 2 * 1000 * dailyApyForEarlyAdopters = 2 * 500 * 0.00164383561 = 1.64383561 INJ
+# The user, FOR THIS DEPOSIT, was an early adopter the whole period, 
+# i.e, daysOfEarlyAdopters = 2, giving him totalEarlyAdopter = 2 * 1000 * dailyApyForEarlyAdopters = 2 * 500 * 0.00164383561 = 1.64383561 INJ
 
-# The user, FOR THIS DEPOSIT, participated in Equinox Staking for the whole period, i.e 87 days, giving him totalRemaining = (dailyCompoundedInterestRate ^ days - 1) * boosts * 500 =  (1.00038272 ^ 87 - 1) * 1.11 * 500 = 18.7870782724 INJ
+# The user, FOR THIS DEPOSIT, participated in Equinox Staking for the whole period, 
+# i.e 87 days, giving him totalRemaining = (dailyCompoundedInterestRate ^ days - 1) * boosts * 500 =  (1.00038272 ^ 87 - 1) * 1.11 * 500 = 18.7870782724 INJ
 
 # This means, for this Deposit #2, the user got: Total = 0 + 1.64383561 + 18.7870782724 = 20.4309138824 INJ
 ```
@@ -83,11 +89,14 @@ Giving him a total boost of 11%.
 ```bash
 # 2000 INJ deposited
 
-# The user, FOR THIS DEPOSIT, was not pre-staking, i.e daysOfPreStake = 0, giving him totalPreStake = 0 * 2000 * dailyApyForPreStake = 0 * 1000 * 0.0004109589 = 0 INJ
+# The user, FOR THIS DEPOSIT, was not pre-staking, 
+# i.e daysOfPreStake = 0, giving him totalPreStake = 0 * 2000 * dailyApyForPreStake = 0 * 1000 * 0.0004109589 = 0 INJ
 
-#The user, FOR THIS DEPOSIT, was not an early adopter, i.e, daysOfEarlyAdopters = 0, giving him totalEarlyAdopter = 2 * 1000 * dailyApyForEarlyAdopters = 0 * 2000 * 0.00164383561 = 0 INJ
+#The user, FOR THIS DEPOSIT, was not an early adopter, 
+# i.e, daysOfEarlyAdopters = 0, giving him totalEarlyAdopter = 2 * 1000 * dailyApyForEarlyAdopters = 0 * 2000 * 0.00164383561 = 0 INJ
 
-# The user, FOR THIS DEPOSIT, participated in Equinox Staking for total of i.e 79 days, giving him totalRemaining = (dailyCompoundedInterestRate ^ days - 1) * boosts * 2000 =  (1.00038272 ^ 79 - 1) * 1.11 * 2000 = 68.1332068807 INJ
+# The user, FOR THIS DEPOSIT, participated in Equinox Staking for total of 
+# i.e 79 days, giving him totalRemaining = (dailyCompoundedInterestRate ^ days - 1) * boosts * 2000 =  (1.00038272 ^ 79 - 1) * 1.11 * 2000 = 68.1332068807 INJ
 
 # This means, for this Deposit #3, the user got: Total = 0 + 0 + 68.1332068807 = 68.1332068807
 ```
