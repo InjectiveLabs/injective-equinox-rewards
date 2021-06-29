@@ -23,7 +23,8 @@ const {
 } = require('./utils/boosts');
 
 /** Pre-Defined Values */
-const dailyApy = new BigNumber(15).dividedBy(100).dividedBy(365);
+const dailyApyPercentage = new BigNumber(15).dividedBy(100);
+const dailyApy = new dailyApyPercentage.dividedBy(365);
 const equinoxStartDate = new Date('March 19, 21 00:00:00 UTC');
 const equinoxEndDate = new Date('Jun 25, 21 00:00:00 UTC');
 const [preStakePeriodStart, preStakePeriodEnd] = [
@@ -66,7 +67,6 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
       rewards[Reward.Special] = checkSpecialBoost(user.txs);
 
       const boost = getTotalBoost(rewards, rewardsBoost);
-      const boostFactor = boost.plus(1);
       let totalEarlyAdopter = new BigNumber(0);
       let totalPreStake = new BigNumber(0);
       let totalRemaining = new BigNumber(0);
@@ -74,6 +74,20 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
 
       for (const deposit of user.deposits || []) {
         const dailyBaseReturns = dailyApy.times(deposit.amount);
+        const dailyBaseReturnsWithBoost = dailyApyPercentage
+          .plus(boost)
+          .dividedBy(365)
+          .times(deposit.amount);
+
+        console.log(
+          JSON.stringify({
+            dailyApyPercentage,
+            boost,
+            dpP: dailyApyPercentage.plus(boost.times(100)),
+            dp: dailyApyPercentage.plus(boost),
+          }),
+        );
+
         const userTimestamp = fromUnixTime(deposit.timestamp).getTime();
         const totalPreStakeDays = getDaysForATimestampInAPeriod(
           preStakePeriodStart,
@@ -93,18 +107,15 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
 
         const earlyAdopter = totalEarlyAdopterDays * dailyBaseReturns * 4;
         const preStake = totalPreStakeDays * dailyBaseReturns;
-        const remaining = new BigNumber(deposit.amount)
-          .times(dailyApy)
-          .times(totalDaysRemaining);
-        const remainingWithBoost = remaining.times(boostFactor);
+        const remaining = dailyBaseReturnsWithBoost.times(totalDaysRemaining);
         const totalForCurrentDeposit = new BigNumber(0)
           .plus(earlyAdopter)
           .plus(preStake)
-          .plus(remainingWithBoost);
+          .plus(remaining);
 
         totalEarlyAdopter = totalEarlyAdopter.plus(earlyAdopter);
         totalPreStake = totalPreStake.plus(preStake);
-        totalRemaining = totalRemaining.plus(remainingWithBoost);
+        totalRemaining = totalRemaining.plus(remaining);
         total = total.plus(totalForCurrentDeposit);
       }
 

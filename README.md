@@ -36,10 +36,11 @@ $ yarn process
 ### Formula for calculating rewards
 
 ```bash
-$baseDailyApy = 15 / 365 / 100
-$boosts = {1.00, 1.14} 
+$baseDailyApyPercentage = 0.15
+$baseDailyApy = $baseDailyApyPercentage / 365 / 100
+$boosts = {0, 0.14} 
 $dailyReturnsWithoutBoost = $baseDailyApy * $preStakedAmount
-$dailyReturns = $preStakedAmount * $baseDailyApy * $boosts
+$dailyReturns = $preStakedAmount * ($baseDailyApyPercentage + $boosts)
 
 
 $daysOfEarlyAdopter = {0, 2}
