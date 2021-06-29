@@ -79,15 +79,6 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
           .dividedBy(365)
           .times(deposit.amount);
 
-        console.log(
-          JSON.stringify({
-            dailyApyPercentage,
-            boost,
-            dpP: dailyApyPercentage.plus(boost.times(100)),
-            dp: dailyApyPercentage.plus(boost),
-          }),
-        );
-
         const userTimestamp = fromUnixTime(deposit.timestamp).getTime();
         const totalPreStakeDays = getDaysForATimestampInAPeriod(
           preStakePeriodStart,
