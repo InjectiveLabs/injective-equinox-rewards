@@ -1,4 +1,4 @@
-**THE FORMULA USED IN THE CALCULATION**
+### THE FORMULA USED IN THE CALCULATION**
 
 ```
 $baseDailyApy = 15 / 365 / 100
@@ -21,14 +21,16 @@ $totalRemaining = $dailyCompoundedReturns * ($totalDaysParticipating - $daysOfPr
 $total = $totalPreStake + $totalEarlyAdopter + $totalRemaining
 ```
 
-**THINGS THAT APPLY WHEN CALCULATING THE REWARDS**
+### THINGS THAT APPLY WHEN CALCULATING THE REWARDS**
 
 - Given that the `baseYearlyApy = 15%`, from the formula for compound interest over time (`x = 10 ^ (log(1 + x) / 365)`, for the above case, `baseYearlyApy = 0.15`, the `dailyCompoundedInterestRate = 10 ^ (log(1 + 0.15) / 365 = 1.00038272`. 
 - User earns only the `baseEarlyApy` during the pre-stake period, i.e `dailyApyForPreStake = 15 / 100 / 365 = 0.0004109589 `, 
 - User earns 4 times the `baseEarlyApy` during the pre-stake period, i.e `dailyApyForEarlyAdopters = 4 * (15 / 100 / 365) = 0.00164383561`
 - User earns `(dailyCompoundedInterestRate ^ days - 1) * boosts` during the remaining period, where `dailyCompoundedInterestRate` is shown above, and `days` are the days the user participated in equinox staking (exlucding the pre-take and early adopters period), and where `boosts` are calculated based on the tasks the user peformed.
 
-**EXAMPLE USAGE OF THE FORMULA/CONDITIONS ABOVE**
+---
+
+## EXAMPLE USAGE OF THE FORMULA/CONDITIONS ABOVE
 
 Lets say a user deposited (pre-staked): 
 ```
@@ -50,7 +52,7 @@ Lets say the user completed all of the tasks except the special task:
 ```
 Giving him a total boost of 11%.
 
-**DEPOSIT #1**
+### DEPOSIT #1
 ```
 - 1000 INJ deposited
 
@@ -64,7 +66,7 @@ Giving him a total boost of 11%.
 
 ```
 
-**DEPOSIT #2**
+### DEPOSIT #2
 ```
 - 500 INJ deposited
 
@@ -77,7 +79,7 @@ Giving him a total boost of 11%.
 - This means, for this Deposit #2, the user got: Total = 0 + 1.64383561 + 18.7870782724 = 20.4309138824 INJ
 ```
 
-**DEPOSIT #3**
+### DEPOSIT #3
 ```
 - 2000 INJ deposited
 
@@ -90,4 +92,5 @@ Giving him a total boost of 11%.
 - This means, for this Deposit #3, the user got: Total = 0 + 0 + 68.1332068807 = 68.1332068807
 ```
 
+### Total
 So, this user, **IN TOTAL**, got: `45.7933345648 + 20.4309138824 + 68.1332068807 = 134.357455328 INJ`
