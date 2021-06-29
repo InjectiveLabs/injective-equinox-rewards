@@ -24,7 +24,7 @@ const {
 
 /** Pre-Defined Values */
 const dailyApyPercentage = new BigNumber(15).dividedBy(100);
-const dailyApy = new dailyApyPercentage.dividedBy(365);
+const dailyApy = dailyApyPercentage.dividedBy(365);
 const equinoxStartDate = new Date('March 19, 21 00:00:00 UTC');
 const equinoxEndDate = new Date('Jun 25, 21 00:00:00 UTC');
 const [preStakePeriodStart, preStakePeriodEnd] = [
