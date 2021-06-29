@@ -26,6 +26,7 @@ const {
 const dailyApy = new BigNumber(15).dividedBy(100).dividedBy(365);
 const dailyCompoundedInterestRate = new BigNumber(1.00038272); // x = 10 ^ (log10 1.15 / 365)
 const equinoxStartDate = new Date('March 19, 21 00:00:00 UTC');
+const equinoxEndDate = new Date('Jun 25, 21 00:00:00 UTC');
 const [preStakePeriodStart, preStakePeriodEnd] = [
   new Date('March 17, 21 00:00:00 UTC'),
   new Date('March 29, 21 00:00:00 UTC'),
@@ -46,8 +47,11 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
 
   const spotMarkets = await fetchSpotMarkets();
   const derivativeMarkets = await fetchDerivativeMarkets();
+  const daysSinceEquinoxStart = getDaysSinceTimestamp(
+    equinoxStartDate,
+    equinoxEndDate.getTime(),
+  );
 
-  const daysSinceEquinoxStart = getDaysSince(equinoxStartDate);
   const usersWithRewards = await Promise.all(
     users.map(async user => {
       const { rewards, rewardsBoost } = getRewardsObjects();
