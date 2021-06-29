@@ -24,7 +24,6 @@ const {
 
 /** Pre-Defined Values */
 const dailyApy = new BigNumber(15).dividedBy(100).dividedBy(365);
-const dailyCompoundedInterestRate = new BigNumber(1.00038272); // x = 10 ^ (log10 1.15 / 365)
 const equinoxStartDate = new Date('March 19, 21 00:00:00 UTC');
 const equinoxEndDate = new Date('Jun 25, 21 00:00:00 UTC');
 const [preStakePeriodStart, preStakePeriodEnd] = [
@@ -94,9 +93,9 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
 
         const earlyAdopter = totalEarlyAdopterDays * dailyBaseReturns * 4;
         const preStake = totalPreStakeDays * dailyBaseReturns;
-        const remaining = new BigNumber(deposit.amount).times(
-          dailyCompoundedInterestRate.pow(totalDaysRemaining) - 1,
-        );
+        const remaining = new BigNumber(deposit.amount)
+          .times(dailyApy)
+          .times(totalDaysRemaining);
         const remainingWithBoost = remaining.times(boostFactor);
         const totalForCurrentDeposit = new BigNumber(0)
           .plus(earlyAdopter)
