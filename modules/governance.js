@@ -5,7 +5,7 @@ const { WEI_FACTOR } = require('./../utils/config');
 const fetchProposals = async () => {
   try {
     const { data } = await axios.get(
-      `https://staking-lcd.injective.network/cosmos/gov/v1beta1/proposals`,
+      `https://testnet.lcd.injective.dev/cosmos/gov/v1beta1/proposals`,
     );
 
     return data.proposals.map(proposal => {
@@ -21,7 +21,7 @@ const fetchProposalsDeposits = async proposalIds => {
     return await Promise.all(
       proposalIds.map(async proposalId => {
         const { data } = await axios.get(
-          `https://staking-lcd.injective.network/cosmos/gov/v1beta1/proposals/${proposalId}/deposits`,
+          `https://testnet.lcd.injective.dev/cosmos/gov/v1beta1/proposals/${proposalId}/deposits`,
         );
 
         return data.deposits.map(deposit => {

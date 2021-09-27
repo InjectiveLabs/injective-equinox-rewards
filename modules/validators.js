@@ -3,7 +3,7 @@ const axios = require('./../utils/axios');
 const fetchValidators = async () => {
   try {
     const { data } = await axios.get(
-      'https://staking-lcd.injective.network/cosmos/staking/v1beta1/validators',
+      'https://testnet.lcd.injective.dev/cosmos/staking/v1beta1/validators',
     );
 
     return data.validators.map(validator => validator.operator_address);
@@ -15,7 +15,7 @@ const fetchValidators = async () => {
 const fetchValidatorDelegators = async validator => {
   try {
     const { data } = await axios.get(
-      `https://staking-lcd.injective.network/cosmos/staking/v1beta1/validators/${validator}/delegations`,
+      `https://testnet.lcd.injective.dev/cosmos/staking/v1beta1/validators/${validator}/delegations`,
     );
 
     return {
@@ -30,7 +30,7 @@ const fetchValidatorDelegators = async validator => {
 const fetchPaginatedValidatorDelegators = async (validator, key) => {
   try {
     const { data } = await axios.get(
-      `https://staking-lcd.injective.network/cosmos/staking/v1beta1/validators/${validator}/delegations?pagination.key=${key}`,
+      `https://testnet.lcd.injective.dev/cosmos/staking/v1beta1/validators/${validator}/delegations?pagination.key=${key}`,
     );
 
     return {

@@ -5,7 +5,7 @@ const { WEI_FACTOR } = require('./../utils/config');
 const fetchTotalFromDelegations = async injAddress => {
   try {
     const { data } = await axios.get(
-      `https://staking-lcd.injective.network/cosmos/staking/v1beta1/delegations/${injAddress}`,
+      `https://testnet.lcd.injective.dev/cosmos/staking/v1beta1/delegations/${injAddress}`,
     );
 
     return data.delegation_responses
@@ -27,7 +27,7 @@ const fetchTotalFromDelegations = async injAddress => {
 const fetchTotalFromRewards = async injAddress => {
   try {
     const { data } = await axios.get(
-      `https://staking-lcd.injective.network/cosmos/distribution/v1beta1/delegators/${injAddress}/rewards`,
+      `https://testnet.lcd.injective.dev/cosmos/distribution/v1beta1/delegators/${injAddress}/rewards`,
     );
     const totalInInj = data.total.find(t => t.denom === 'inj');
 
@@ -42,7 +42,7 @@ const fetchTotalFromRewards = async injAddress => {
 const fetchTotalFromReDelegations = async injAddress => {
   try {
     const { data } = await axios.get(
-      `https://staking-lcd.injective.network/cosmos/staking/v1beta1/delegators/${injAddress}/redelegations`,
+      `https://testnet.lcd.injective.dev/cosmos/staking/v1beta1/delegators/${injAddress}/redelegations`,
     );
 
     return data.redelegation_responses
@@ -64,7 +64,7 @@ const fetchTotalFromReDelegations = async injAddress => {
 const fetchTotalFromUnbonding = async injAddress => {
   try {
     const { data } = await axios.get(
-      `https://staking-lcd.injective.network/cosmos/staking/v1beta1/delegators/${injAddress}/unbonding_delegations`,
+      `https://testnet.lcd.injective.dev/cosmos/staking/v1beta1/delegators/${injAddress}/unbonding_delegations`,
     );
 
     return data.unbonding_responses

@@ -7,6 +7,14 @@ const { sleep } = require('./utils/time');
 const fs = require('fs').promises;
 
 (async () => {
+  let eligibleUsersExistingTxs = [];
+  try {
+    eligibleUsersExistingTxs = require('./json/eligible-users-with-txs.json');
+  } catch (e) {
+    console.error('Please run the `yarn users` command first.');
+    process.exit();
+  }
+
   let eligibleUsers = [];
   try {
     eligibleUsers = require('./json/eligible-users.json');
@@ -27,13 +35,15 @@ const fs = require('fs').promises;
 
     const user = eligibleUsers[index];
     const accountTxs = await fetchAccountTxs(user.injAddress);
+    const existingTxs = eligibleUsersExistingTxs[index].txs;
     const txs = getMessagesFromAccountTxs(accountTxs || []);
     const proposals = getProposalsFromAccountTxs(accountTxs || []);
+    const existingProposals = eligibleUsersExistingTxs[index].proposals;
 
     users.push({
       ...user,
-      proposals,
-      txs,
+      proposals: [...proposals, ...existingProposals],
+      txs: [...txs, ...existingTxs],
     });
   }
 
