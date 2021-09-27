@@ -114,16 +114,8 @@ const checkMarketLaunchBoost = proposals => {
   });
 };
 
-const checkSpecialBoost = messageTypes => {
-  const userTrades = messageTypes.filter(
-    m =>
-      m === RewardMessageTypes.MarketSpotOrder ||
-      m === RewardMessageTypes.MsgMarketSpotOrder ||
-      m === RewardMessageTypes.MarketDerivativeOrder ||
-      m === RewardMessageTypes.MsgMarketDerivativeOrder,
-  );
-
-  return userTrades.length >= 50;
+const checkSpecialBoost = nonce => {
+  return nonce >= 50;
 };
 
 module.exports = {

@@ -2,13 +2,8 @@ const BigNumber = require('bignumber.js');
 const fs = require('fs').promises;
 const { fromUnixTime } = require('date-fns');
 const {
-  fetchSpotMarkets,
-  fetchDerivativeMarkets,
-} = require('./modules/exchange');
-const {
   getDaysForATimestampInAPeriod,
   getDaysSinceTimestamp,
-  getDaysSince,
 } = require('./utils/time');
 const {
   Reward,
@@ -45,8 +40,6 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
     process.exit();
   }
 
-  const spotMarkets = await fetchSpotMarkets();
-  const derivativeMarkets = await fetchDerivativeMarkets();
   const daysSinceEquinoxStart = getDaysSinceTimestamp(
     equinoxStartDate,
     equinoxEndDate.getTime(),
@@ -60,7 +53,7 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
       rewards[Reward.Governance] = checkGovernanceBoost(user.txs);
       rewards[Reward.NewMarket] = checkProposalBoost(user.txs);
       rewards[Reward.MarketProposal] = checkMarketLaunchBoost(user.proposals);
-      rewards[Reward.Special] = checkSpecialBoost(user.txs);
+      rewards[Reward.Special] = checkSpecialBoost(user.nonce);
 
       const boost = getTotalBoost(rewards, rewardsBoost);
       let totalEarlyAdopter = new BigNumber(0);

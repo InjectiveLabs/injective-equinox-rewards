@@ -47,6 +47,30 @@ const fetchAccountTxs = async injAddress => {
   }
 };
 
+const fetchAccountNonce = async injAddress => {
+  try {
+    const { data } = await axios.get(
+      `https://testnet.lcd.injective.dev/cosmos/auth/v1beta1/accounts/${injAddress}`,
+    );
+
+    if (!data) {
+      return 0;
+    }
+
+    if (!data.account) {
+      return 0;
+    }
+
+    if (!data.account.base_account) {
+      return 0;
+    }
+
+    return data.account.base_account.sequence || 0;
+  } catch (e) {
+    console.error(e);
+  }
+};
+
 const getMessagesFromAccountTxs = txs => {
   const successfulTxs = txs.filter(tx => tx);
 
@@ -91,4 +115,5 @@ module.exports = {
   fetchAccountTxs,
   getProposalsFromAccountTxs,
   getMessagesFromAccountTxs,
+  fetchAccountNonce,
 };

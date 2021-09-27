@@ -1,5 +1,6 @@
 const {
   fetchAccountTxs,
+  fetchAccountNonce,
   getMessagesFromAccountTxs,
   getProposalsFromAccountTxs,
 } = require('./modules/accounts');
@@ -34,6 +35,7 @@ const fs = require('fs').promises;
     }
 
     const user = eligibleUsers[index];
+    const nonce = await fetchAccountNonce(user.injAddress);
     const accountTxs = await fetchAccountTxs(user.injAddress);
     const existingTxs = eligibleUsersExistingTxs[index].txs;
     const txs = getMessagesFromAccountTxs(accountTxs || []);
@@ -44,6 +46,7 @@ const fs = require('fs').promises;
       ...user,
       proposals: [...proposals, ...existingProposals],
       txs: [...txs, ...existingTxs],
+      nonce: parseInt(nonce),
     });
   }
 
