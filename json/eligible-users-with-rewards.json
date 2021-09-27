@@ -308,15 +308,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "2.6826904109589043",
   "totalEarlyAdopter": "1.7884602739726028",
-  "totalRemaining": "26.9163271232876713482324",
-  "total": "31.3874778082191784482324",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "33.3249764383561643258838",
+  "total": "37.7961271232876714258838",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xf8f25db1baa54d5c1f9f23802d6cd9c51ce8110e",
@@ -366,15 +366,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "10.36173698630137",
   "totalEarlyAdopter": "6.907824657534246",
-  "totalRemaining": "103.9627610958904114044588",
-  "total": "121.2323227397260274044588",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "128.7157994520547942977706",
+  "total": "145.9853610958904102977706",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x3481445fdc68b908af39187d7673c71910423602",
@@ -752,15 +752,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": true
   },
   "totalPreStake": "74.6294794520548",
   "totalEarlyAdopter": "49.752986301369866",
-  "totalRemaining": "837.923210958904103884032",
-  "total": "962.305676712328769884032",
-  "boost": 0.085,
-  "percentageBoost": "8.5%"
+  "totalRemaining": "1016.204745205479454550736",
+  "total": "1140.587210958904120550736",
+  "boost": 0.135,
+  "percentageBoost": "13.5%"
  },
  {
   "address": "0xf6e3987fbce42e32a651ea3fda774eae1aaf2e60",
@@ -895,15 +895,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "1.3396931506849317",
   "totalEarlyAdopter": "0.8931287671232877",
-  "totalRemaining": "13.4415879452054795096616",
-  "total": "15.6744098630136989096616",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "16.6419660273972602451692",
+  "total": "18.8747879452054796451692",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x20ebb1d73d3785a7d25387786960bfce111d7c0d",
@@ -1647,15 +1647,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "5.205353424657535",
   "totalEarlyAdopter": "3.470235616438356",
-  "totalRemaining": "52.2270460273972604978028",
-  "total": "60.9026350684931514978028",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "64.6620569863013697510986",
+  "total": "73.3376460273972607510986",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x77e8cfdc515645ead2a042f0d945c16cc6c13ca8",
@@ -1699,15 +1699,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "3.9626630136986303",
   "totalEarlyAdopter": "2.6417753424657535",
-  "totalRemaining": "35.972174246575342323758",
-  "total": "42.576612602739726123758",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "45.4385358904109591975668",
+  "total": "52.0429742465753429975668",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0xcb986f75a007013752735cd8e6d8b87085eeb42f",
@@ -2098,15 +2098,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "1.1780876712328767",
   "totalEarlyAdopter": "0.7853917808219179",
-  "totalRemaining": "21.2534038356164384472504",
-  "total": "23.2168832876712330472504",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "26.3137380821917807763748",
+  "total": "28.2772175342465753763748",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xd1644178b80f89eb21d11db3b7ffe83bc1018e21",
@@ -2222,15 +2222,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "18.73972602739726",
   "totalEarlyAdopter": "12.493150684931507",
-  "totalRemaining": "188.021917808219178888",
-  "total": "219.254794520547945888",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "232.789041095890410556",
+  "total": "264.021917808219177556",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xd072163cc7019e1921fb94be8bac009b035be6d7",
@@ -2456,15 +2456,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "1.4418739726027396",
   "totalEarlyAdopter": "0.9612493150684931",
-  "totalRemaining": "14.4668021917808219798088",
-  "total": "16.8699254794520546798088",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "17.9112789041095890100956",
+  "total": "20.3144021917808217100956",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x2d0e9e8197c541704ead0aeb35ef5f03dc35bc6d",
@@ -3690,15 +3690,15 @@
    "re-delegate": false,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "2.4735452054794522",
   "totalEarlyAdopter": "1.6490301369863014",
-  "totalRemaining": "24.2270010958904111243568",
-  "total": "28.3495764383561647243568",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "30.1360257534246575401556",
+  "total": "34.2586010958904111401556",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x24083f23acfddb38b4491868dc8f3005c503096a",
@@ -6832,15 +6832,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "2.6511780821917807",
   "totalEarlyAdopter": "1.7674520547945205",
-  "totalRemaining": "23.43346849315068489984",
-  "total": "27.85209863013698609984",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "29.766838356164383358976",
+  "total": "34.185468493150684558976",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x57e7655b4c6e08d5854c66afc1848f494063aef7",
@@ -6915,15 +6915,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "23.822728767123287",
   "totalEarlyAdopter": "15.881819178082191",
-  "totalRemaining": "239.0213786301369873257472",
-  "total": "278.7259265753424653257472",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "295.9312306849315063371264",
+  "total": "335.6357786301369843371264",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x205089049e7827ec46b45b838cead86a3d068d64",
@@ -8135,15 +8135,15 @@
    "re-delegate": false,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.23863561643835618",
   "totalEarlyAdopter": "0.1590904109589041",
-  "totalRemaining": "2.3373032876712328926744",
-  "total": "2.7350293150684931726744",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "2.9073772602739726033098",
+  "total": "3.3051032876712328833098",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x71f7d4aaf05498006e44e88ed2e854750f7aa35c",
@@ -8256,15 +8256,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.28375890410958904",
   "totalEarlyAdopter": "0.18917260273972603",
-  "totalRemaining": "2.508113424657534243186",
-  "total": "2.981044931506849313186",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "3.1859819178082191563904",
+  "total": "3.6589134246575342263904",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x6b40240ef924b0ce8b8f3da067c967f9e3330f91",
@@ -8301,15 +8301,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "2.4952931506849314",
   "totalEarlyAdopter": "1.6635287671232877",
-  "totalRemaining": "25.0361079452054795593524",
-  "total": "29.1949298630136986593524",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "30.9970860273972602203238",
+  "total": "35.1559079452054793203238",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x10edc3f7e148da3244d31e07528d014c4df6fb62",
@@ -8652,15 +8652,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "3.627813698630137",
   "totalEarlyAdopter": "2.4185424657534247",
-  "totalRemaining": "32.065842191780821874476",
-  "total": "38.112198356164383574476",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "40.7322860273972599966464",
+  "total": "46.7786421917808216966464",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x18e44b41b66f8e7d87e22055831fba7cd3b8d404",
@@ -8742,15 +8742,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "4.452953424657535",
   "totalEarlyAdopter": "2.9686356164383563",
-  "totalRemaining": "44.6779660273972604654496",
-  "total": "52.0995550684931517654496",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "55.3155769863013697672752",
+  "total": "62.7371660273972610672752",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xd4f13a5b4cd48c21174d5713b96b4e68707fb713",
@@ -8820,15 +8820,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.5794027397260274",
   "totalEarlyAdopter": "0.38626849315068496",
-  "totalRemaining": "5.8133408219178082440924",
-  "total": "6.7790120547945206040924",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "7.1974695890410958779538",
+  "total": "8.1631408219178082379538",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x308044c808b62b90e04878007b98c2d64193f44c",
@@ -9464,15 +9464,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "1.139227397260274",
   "totalEarlyAdopter": "0.7594849315068493",
-  "totalRemaining": "11.4302482191780822407676",
-  "total": "13.3289605479452055407676",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "14.1517358904109588796162",
+  "total": "16.0504482191780821796162",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xec89fd78ee2cd9393c67ab7fdb356bd5d458ec97",
@@ -11139,15 +11139,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "3.1975397260273972",
   "totalEarlyAdopter": "2.1316931506849315",
-  "totalRemaining": "29.026555068493150570353",
-  "total": "34.355787945205479270353",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "36.6651221917808221546038",
+  "total": "41.9943550684931508546038",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0x46dc3308bafaf6775f0d8dc70dcceedc9e7d81a4",
@@ -11750,15 +11750,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "724.8684616438356",
   "totalEarlyAdopter": "527.1770630136987",
-  "totalRemaining": "7934.0147983561644175645644",
-  "total": "9186.0603230136987175645644",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "9823.0659408219177912177178",
+  "total": "11075.1114654794520912177178",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xda25808ef193b9bca79db8a485b0ee1e2d266868",
@@ -12072,15 +12072,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "25.928823287671232",
   "totalEarlyAdopter": "18.85732602739726",
-  "totalRemaining": "251.4290752054794517150255",
-  "total": "296.2152245205479437150255",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "319.3828793150684909761632",
+  "total": "364.1690286301369829761632",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x7217fd3a27f44564e5135fe465d3e290800b0028",
@@ -12889,15 +12889,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "8.459120547945204",
   "totalEarlyAdopter": "6.152087671232876",
-  "totalRemaining": "92.5889194520547949173576",
-  "total": "107.2001276712328749173576",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "114.6339002739726025413212",
+  "total": "129.2451084931506825413212",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xa99bac549060716a6f45c16b145a614b78f7b3fc",
@@ -13675,15 +13675,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "8.236845205479453",
   "totalEarlyAdopter": "5.990432876712329",
-  "totalRemaining": "79.423155890410958796781",
-  "total": "93.650433972602740796781",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "100.8888736986301362993984",
+  "total": "115.1161517808219182993984",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0xad35a43be3206bfe3e54b1c9273112df9df91947",
@@ -13930,15 +13930,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "1.5105410958904109",
   "totalEarlyAdopter": "1.0985753424657534",
-  "totalRemaining": "16.533558904109589111954",
-  "total": "19.142675342465753411954",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "20.470120547945205444023",
+  "total": "23.079236986301369744023",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x01fe229a21b8604eb6705b1dd404928316f5841d",
@@ -14139,15 +14139,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "2.1308506849315068",
   "totalEarlyAdopter": "1.549709589041096",
-  "totalRemaining": "21.101878904109588957799",
-  "total": "24.782439178082191757799",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "26.6550049315068494872154",
+  "total": "30.3355652054794522872154",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0x49b144d329b096d2772533f936b5fda6ddf8dbdb",
@@ -14713,15 +14713,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": true
   },
   "totalPreStake": "29.6176643835616449",
   "totalEarlyAdopter": "21.96588493150684915",
-  "totalRemaining": "377.8132208219178106592218",
-  "total": "429.3967701369863047092218",
-  "boost": 0.09,
-  "percentageBoost": "9%"
+  "totalRemaining": "456.5243084931506852463512",
+  "total": "508.1078578082191792963512",
+  "boost": 0.14,
+  "percentageBoost": "14%"
  },
  {
   "address": "0x887aaf83491d715b07f6edbdd752a10845a262c3",
@@ -15692,15 +15692,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "11.42306301369863",
   "totalEarlyAdopter": "8.307682191780822",
-  "totalRemaining": "125.0306169863013703988592",
-  "total": "144.7613621917808223988592",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "154.7998115068493148005704",
+  "total": "174.5305567123287668005704",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x95420c8f22c95e94f0c443d4c075b819644014b0",
@@ -16966,15 +16966,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "4.520547945205479",
   "totalEarlyAdopter": "3.287671232876712",
-  "totalRemaining": "49.47945205479452076",
-  "total": "57.28767123287671176",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "61.26027397260273962",
+  "total": "69.06849315068493062",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x37df9dd881a73f63540a83a997ffaa05158bc1ce",
@@ -17253,15 +17253,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "9.027172602739725",
   "totalEarlyAdopter": "6.565216438356164",
-  "totalRemaining": "98.8065073972602743960592",
-  "total": "114.3988964383561633960592",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "122.3318663013698628019704",
+  "total": "137.9242553424657518019704",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x1333c53a798547126ca04647ba925485a6fa7aad",
@@ -18002,15 +18002,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.1643835616438356",
   "totalEarlyAdopter": "0.13150684931506848",
-  "totalRemaining": "3.2564383561643835756",
-  "total": "3.5523287671232876556",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "4.0317808219178082122",
+  "total": "4.3276712328767122922",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xe1c7c638d11c329d33ba0807f68536037e3cf76e",
@@ -18269,15 +18269,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "1.6478630136986303",
   "totalEarlyAdopter": "1.3182904109589042",
-  "totalRemaining": "19.3678832876712330089808",
-  "total": "22.3340367123287675089808",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "24.0917572602739726074636",
+  "total": "27.0579106849315071074636",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x0176ab7da19238d31fe3d6f1843ca704c67824f7",
@@ -19203,15 +19203,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.410958904109589",
   "totalEarlyAdopter": "0.3287671232876712",
-  "totalRemaining": "4.47671232876712327",
-  "total": "5.21643835616438347",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "5.654794520547945242",
+  "total": "6.394520547945205442",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0xa9196e531ae237b3edfe0b10299932cfd5dd494b",
@@ -19343,15 +19343,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.9493150684931506",
   "totalEarlyAdopter": "0.7594520547945205",
-  "totalRemaining": "11.42975342465753429556",
-  "total": "13.13852054794520539556",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "14.15112328767123285222",
+  "total": "15.85989041095890395222",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x0337dcbc6f5f2c2ca665fdd487f7d8f23c305b08",
@@ -19389,15 +19389,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.369",
   "totalEarlyAdopter": "0.2952",
-  "totalRemaining": "4.4427600000000000190404",
-  "total": "5.1069600000000000190404",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "5.5005599999999999904798",
+  "total": "6.1647599999999999904798",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xd1ccc105df9440cd671de2add1cf8c13815153f1",
@@ -19464,15 +19464,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "1.8035342465753423",
   "totalEarlyAdopter": "1.4428273972602739",
-  "totalRemaining": "21.7145523287671233807336",
-  "total": "24.9609139726027395807336",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "26.8846838356164383096332",
+  "total": "30.1310454794520545096332",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x5e9b11688478c7f4da5354ce5db322e91d8f5e20",
@@ -19565,15 +19565,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "1.0546849315068494",
   "totalEarlyAdopter": "0.8437479452054795",
-  "totalRemaining": "11.186691506849315053376",
-  "total": "13.085124383561643953376",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "14.2101216438356163416064",
+  "total": "16.1085545205479452416064",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0xd5585dd9b5a41f1ba872d94da60dde1e8017e4b7",
@@ -20301,15 +20301,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.40536986301369865",
   "totalEarlyAdopter": "0.3242958904109589",
-  "totalRemaining": "4.8806531506849315277664",
-  "total": "5.6103189041095890777664",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "6.0427134246575342361168",
+  "total": "6.7723791780821917861168",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xbc963b5bc8842b9d2961f3187da4e9ff3583f483",
@@ -20388,15 +20388,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "11.166123287671233",
   "totalEarlyAdopter": "8.932898630136986",
-  "totalRemaining": "278.5864276712328756126455",
-  "total": "298.6854495890410946126455",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "351.8986454794520570671993",
+  "total": "371.9976673972602760671993",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0xf5afa57276f563c97b53238b60e711489dddef66",
@@ -20756,15 +20756,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.3082191780821918",
   "totalEarlyAdopter": "0.2465753424657534",
-  "totalRemaining": "3.3575342465753424525",
-  "total": "3.9123287671232876525",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "4.2410958904109589315",
+  "total": "4.7958904109589041315",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0x0a602f69e4f2e05f3c6a4d0164182d6ad0262aa0",
@@ -20860,15 +20860,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "47.99609589041096",
   "totalEarlyAdopter": "38.39687671232877",
-  "totalRemaining": "577.872994520547947682078",
-  "total": "664.265967123287677682078",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "715.461802739726026158961",
+  "total": "801.854775342465756158961",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x94a0d596272c628b1d7987f68ae0eee5b4ccdc70",
@@ -21063,15 +21063,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.8576301369863014",
   "totalEarlyAdopter": "0.6861041095890411",
-  "totalRemaining": "10.0800128767123288359624",
-  "total": "11.6237471232876713359624",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "12.5385526027397260298558",
+  "total": "14.0822868493150685298558",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x89ce8af17128fd63acdeff9f8c594bdd87dce013",
@@ -21264,15 +21264,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "1.0285068493150686",
   "totalEarlyAdopter": "0.8228054794520548",
-  "totalRemaining": "12.0883838356164384387192",
-  "total": "13.9396961643835618387192",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "15.0367701369863013728114",
+  "total": "16.8880824657534247728114",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0xb80de6e970e54906dc57974477a96b303c0e8dce",
@@ -21632,15 +21632,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "3.6893835616438357",
   "totalEarlyAdopter": "3.2794520547945205",
-  "totalRemaining": "49.3557534246575344581",
-  "total": "56.3245890410958906581",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "61.10712328767123277095",
+  "total": "68.07595890410958897095",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xaba9e96bd0b15cc9189f36ce0d9bba84c172a78f",
@@ -22199,15 +22199,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "7.399516438356165",
   "totalEarlyAdopter": "6.57734794520548",
-  "totalRemaining": "104.9043320547945209975352",
-  "total": "118.8811964383561659975352",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "129.8815539726027395012324",
+  "total": "143.8584183561643845012324",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xae260a8f5cfb927cfd38f8ac717be3e0cdb9cdd2",
@@ -22304,15 +22304,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.5493575342465753",
   "totalEarlyAdopter": "0.4883178082191781",
-  "totalRemaining": "7.3491830136986301684828",
-  "total": "8.3868583561643835684828",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "9.0989884931506849157586",
+  "total": "10.1366638356164383157586",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xe3a2b39bfd4afbd4787d3f868b604e109991b338",
@@ -22469,15 +22469,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.21252328767123288",
   "totalEarlyAdopter": "0.1889095890410959",
-  "totalRemaining": "2.572318904109589030942",
-  "total": "2.973751780821917810942",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "3.2492449315068493360532",
+  "total": "3.6506778082191781160532",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0x1f2f40fd6770da2bb833825a1dfd230238e4ecdb",
@@ -22619,15 +22619,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.3602095890410959",
   "totalEarlyAdopter": "0.32018630136986304",
-  "totalRemaining": "4.8188038356164383768164",
-  "total": "5.4991997260273973168164",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "5.9661380821917808115918",
+  "total": "6.6465339726027397515918",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xa3901d543a0856815881435b73dc592bef10d39d",
@@ -23931,15 +23931,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.9912328767123288",
   "totalEarlyAdopter": "1.3216438356164384",
-  "totalRemaining": "19.89073972602739734552",
-  "total": "22.20361643835616454552",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "24.62663013698630132724",
+  "total": "26.93950684931506852724",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x4de3f3e6def583303b164bcaf1deefac12be01c6",
@@ -24007,15 +24007,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.2465753424657534",
   "totalEarlyAdopter": "0.3287671232876712",
-  "totalRemaining": "4.947945205479452076",
-  "total": "5.523287671232876676",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "6.126027397260273962",
+  "total": "6.701369863013698562",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x80b5370188f2197c1c9b169ebb082502a806b1ee",
@@ -24113,15 +24113,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.9576986301369863",
   "totalEarlyAdopter": "1.276931506849315",
-  "totalRemaining": "19.217819178082191863184",
-  "total": "21.452449315068493163184",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "23.793490410958904068408",
+  "total": "26.028120547945205368408",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xc5680d29e8e4a8d5eab459aa94cdf0fc6b031473",
@@ -24754,15 +24754,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "2.923495890410959",
   "totalEarlyAdopter": "3.8979945205479454",
-  "totalRemaining": "89.4364339726027401093264",
-  "total": "96.2579243835616445093264",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "110.7308230136986299453368",
+  "total": "117.5523134246575343453368",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xffdef5e9eeaceac0800a2f784105105dbaf1d884",
@@ -24848,15 +24848,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.09287671232876712",
   "totalEarlyAdopter": "0.1486027397260274",
-  "totalRemaining": "2.236471232876712338352",
-  "total": "2.477950684931506858352",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "2.768964383561643830824",
+  "total": "3.010443835616438350824",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x15c68122daf868eb124044e5f2aaa41b040dabe7",
@@ -25057,15 +25057,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "3.796882191780822",
   "totalEarlyAdopter": "7.593764383561644",
-  "totalRemaining": "114.2861539726027402158252",
-  "total": "125.6768005479452062158252",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "141.4971430136986298920874",
+  "total": "152.8877895890410958920874",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x772f767719d792f077ba665ea42129cd03201225",
@@ -25650,15 +25650,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": true
   },
   "totalPreStake": "0.08799452054794521",
   "totalEarlyAdopter": "0.17598904109589042",
-  "totalRemaining": "2.9639487671232876510528",
-  "total": "3.2279323287671232810528",
-  "boost": 0.085,
-  "percentageBoost": "8.5%"
+  "totalRemaining": "3.5945761643835616526644",
+  "total": "3.8585597260273972826644",
+  "boost": 0.135,
+  "percentageBoost": "13.5%"
  },
  {
   "address": "0x02745a825647c12b765263ba857c7038b637e661",
@@ -26336,15 +26336,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.057632876712328765",
   "totalEarlyAdopter": "0.23053150684931506",
-  "totalRemaining": "3.4694991780821917956912",
-  "total": "3.7576635616438356206912",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "4.2955704109589041021544",
+  "total": "4.5837347945205479271544",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xd624d54d410d6495f8be29cbdc772f3276170443",
@@ -26687,15 +26687,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "1.4802493150684932",
   "totalEarlyAdopter": "5.920997260273973",
-  "totalRemaining": "116.1525419178082196758788",
-  "total": "123.5537884931506858758788",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "143.8079090410958901620606",
+  "total": "151.2091556164383563620606",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x8f7e4f6e71f0b25a3af594292147da0eed5f80b0",
@@ -26818,15 +26818,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.08496164383561644",
   "totalEarlyAdopter": "0.33984657534246576",
-  "totalRemaining": "5.1146909589041096109612",
-  "total": "5.5394991780821918109612",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "6.3324745205479451945194",
+  "total": "6.7572827397260273945194",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x28a900f5cd84d0852acc1413d1a6a1bd9701f908",
@@ -27119,15 +27119,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0.05815479452054795",
   "totalEarlyAdopter": "0.4652383561643836",
-  "totalRemaining": "7.0018372602739726327476",
-  "total": "7.5252304109589041827476",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "8.6689413698630136836262",
+  "total": "9.1923345205479452336262",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x1f3a618b3ac9273b12e6b3caa33543a9f1840b88",
@@ -29078,15 +29078,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0.3603945205479452",
-  "totalRemaining": "5.4239375342465753657112",
-  "total": "5.7843320547945205657112",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "6.7153512328767123171444",
+  "total": "7.0757457534246575171444",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x024fa8a63e935dc591a27f381c57ceb3e850937d",
@@ -29193,15 +29193,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "3.60986301369863",
-  "totalRemaining": "57.762542465753424905088",
-  "total": "61.372405479452054905088",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "71.515528767123287547456",
+  "total": "75.125391780821917547456",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x3150a0e7021a24529abe36e25dab6897079a5c1f",
@@ -29472,15 +29472,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0.6254465753424657",
-  "totalRemaining": "18.3777052054794521803008",
-  "total": "19.0031517808219178803008",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "22.8600723287671232921536",
+  "total": "23.4855189041095889921536",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x4167247acd955124fff268ab657693c2a9a9d00c",
@@ -29950,15 +29950,15 @@
    "re-delegate": false,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0.16435068493150684",
-  "totalRemaining": "4.358032328767123281782",
-  "total": "4.522383013698630121782",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "5.5358789041095890034048",
+  "total": "5.7002295890410958434048",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x822911dca54547d371ef53bce8c8f0b9ccb1aa15",
@@ -30058,15 +30058,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "7.042438356164384",
-  "totalRemaining": "191.789071232876711571705",
-  "total": "198.831509589041095571705",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "242.259879452054796085143",
+  "total": "249.302317808219180085143",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0x30de545d3a54d0aa416390073c4091553ef3e3a0",
@@ -30219,15 +30219,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0.9009369863013698053",
-  "totalRemaining": "27.1182032876712329929332",
-  "total": "28.0191402739726027982332",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "33.5749183561643835035334",
+  "total": "34.4758553424657533088334",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x962602a5126bdc05b12c46c7116e2a12c453f72f",
@@ -31307,15 +31307,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0.27036164383561645",
-  "totalRemaining": "20.9238361643835617335092",
-  "total": "21.1941978082191781835092",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "25.9057019178082191332454",
+  "total": "26.1760635616438355832454",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x990a863435a81e09de96eb5b250dc1b2d79011f4",
@@ -31789,15 +31789,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0.1753808219178082",
-  "totalRemaining": "5.1532731506849315420424",
-  "total": "5.3286539726027397420424",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "6.4101690410958904122158",
+  "total": "6.5855498630136986122158",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x8324cb9cc66c1b33600f1b579aeb266494cea90d",
@@ -32572,15 +32572,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "28.8435517808219179318344",
-  "total": "28.8435517808219179318344",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "35.7110641095890410340828",
+  "total": "35.7110641095890410340828",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x5ca4b035490bfad2c9984c2dc12834f5adccb4ac",
@@ -32701,15 +32701,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "15.04175342465753431104",
-  "total": "15.04175342465753431104",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "18.62312328767123284448",
+  "total": "18.62312328767123284448",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xeb79d3cc84f9daee5c4b7341fb014a95a07df86f",
@@ -32776,15 +32776,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "29.37029589041095886442",
-  "total": "29.37029589041095886442",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "37.308213698630136732288",
+  "total": "37.308213698630136732288",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x59489dbe68e1b702caecad55982b67c01b93fdd3",
@@ -33182,15 +33182,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "21.2623101369863014609872",
-  "total": "21.2623101369863014609872",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "26.3247649315068492695064",
+  "total": "26.3247649315068492695064",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x5f7858ae524b32b9a86e1c1b45fc2f8d5eb9a8e8",
@@ -35183,15 +35183,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "6.162895890410958930522",
-  "total": "6.162895890410958930522",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "7.630252054794520534739",
+  "total": "7.630252054794520534739",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xd6990c86c75a92c9337ca5f895eb949a258d7b17",
@@ -35772,15 +35772,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "57.840019863013699025142",
-  "total": "57.840019863013699025142",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "71.9473417808219178223265",
+  "total": "71.9473417808219178223265",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x2d96401e982190b4cd524d05a2712643928b51b4",
@@ -35838,15 +35838,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "94.4208501369863017745238",
-  "total": "94.4208501369863017745238",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "116.9020049315068491127381",
+  "total": "116.9020049315068491127381",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x01dd79c1d1198284575b417439fee23e7291bede",
@@ -36241,15 +36241,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "10.13293150684931511192",
-  "total": "10.13293150684931511192",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "12.54553424657534244404",
+  "total": "12.54553424657534244404",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x936eaf4cc52e461dec5e4eb2d74e3fa968792e94",
@@ -38141,15 +38141,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "21.161268493150685022198",
-  "total": "21.161268493150685022198",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "26.199665753424657488901",
+  "total": "26.199665753424657488901",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x0886c86e3d9086e4959647c201dec707108d7c14",
@@ -38239,15 +38239,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "2.4053400000000000103086",
-  "total": "2.4053400000000000103086",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "2.9780399999999999948457",
+  "total": "2.9780399999999999948457",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x9c593123ec98b812c320306bfb1a8c3d21b8cdee",
@@ -39001,15 +39001,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "2.797997260273972591695",
-  "total": "2.797997260273972591695",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "3.534312328767123310497",
+  "total": "3.534312328767123310497",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0x215716dd1821e5b6504d17fea4eeaa880ac73461",
@@ -39152,15 +39152,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "2.3464882191780822018372",
-  "total": "2.3464882191780822018372",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "2.9051758904109588990814",
+  "total": "2.9051758904109588990814",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xfc5480d57c7dbff406bc8ad7044bdae7a8fedecb",
@@ -39604,15 +39604,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "46.9252421917808221189164",
-  "total": "46.9252421917808221189164",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "58.0979189041095889405418",
+  "total": "58.0979189041095889405418",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x57be1dd8d62e4c5d1e824dbfb4c317dd1877d8a1",
@@ -39752,15 +39752,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "34.0040969863013700952368",
-  "total": "34.0040969863013700952368",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "42.2977791780821917891156",
+  "total": "42.2977791780821917891156",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0xaa63494ad932817836cd3f84510b3bb928c21203",
@@ -40057,15 +40057,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "2.1772800000000000093312",
-  "total": "2.1772800000000000093312",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "2.6956799999999999953344",
+  "total": "2.6956799999999999953344",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x84fc26b3cf93b3f965a1080e49ab44aa811b9d36",
@@ -40094,15 +40094,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "47.9147510958904112861268",
-  "total": "47.9147510958904112861268",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "59.6012757534246575459331",
+  "total": "59.6012757534246575459331",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0xf72edd44adf7ce25cfa7b0532e3aec8e3c286620",
@@ -40872,15 +40872,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "9.098630136986301432",
-  "total": "9.098630136986301432",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "11.317808219178082194",
+  "total": "11.317808219178082194",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0xa5da24a7a0872024bd93f2a6e51b58bac31f38ed",
@@ -40975,15 +40975,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "9.070646301369863001441",
-  "total": "9.070646301369863001441",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "11.5221723287671232092224",
+  "total": "11.5221723287671232092224",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0xf49b128d57584b691df9f30f5d259c9decb9081f",
@@ -41110,15 +41110,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "42.3969315068493150112",
-  "total": "42.3969315068493150112",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "53.85556164383561607168",
+  "total": "53.85556164383561607168",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x444e34533102ff089e3511eb179219f6adce6fdf",
@@ -41172,15 +41172,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "26.204778082191780934224",
-  "total": "26.204778082191780934224",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "32.444010958904109532888",
+  "total": "32.444010958904109532888",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xe38c5e63712a76d1e9968b9452952480aaffb396",
@@ -41324,15 +41324,15 @@
    "re-delegate": false,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "93.883934246575343106912",
-  "total": "93.883934246575343106912",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "116.782454794520547968104",
+  "total": "116.782454794520547968104",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x472c7ebcb752bac673e3a44850fe75b841f2f621",
@@ -42131,15 +42131,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "9.60591780821917812336",
-  "total": "9.60591780821917812336",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "11.89304109589041093832",
+  "total": "11.89304109589041093832",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xc5fd3ec45b4e86636ca32b292f86ac865c1962ed",
@@ -42167,15 +42167,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "17.90071232876712340992",
-  "total": "17.90071232876712340992",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "22.26673972602739726464",
+  "total": "22.26673972602739726464",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x9462429214a1ed891ee958ad306cd55d9588ef02",
@@ -42199,15 +42199,15 @@
    "re-delegate": false,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "4.47605479452054790604",
-  "total": "4.47605479452054790604",
-  "boost": 0.05,
-  "percentageBoost": "5%"
+  "totalRemaining": "5.595068493150684943816",
+  "total": "5.595068493150684943816",
+  "boost": 0.1,
+  "percentageBoost": "10%"
  },
  {
   "address": "0xfee16c9b0ae3ef94612c629ace90f551ba864d02",
@@ -42233,15 +42233,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "57.5184657534246573072",
-  "total": "57.5184657534246573072",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "72.65490410958904156512",
+  "total": "72.65490410958904156512",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0x3c6923054522ff4b1375c5751bc78086c0e01551",
@@ -42341,15 +42341,15 @@
    "re-delegate": false,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "23.5766301369863011635675",
-  "total": "23.5766301369863011635675",
-  "boost": 0.05,
-  "percentageBoost": "5%"
+  "totalRemaining": "29.4707876712328767771645",
+  "total": "29.4707876712328767771645",
+  "boost": 0.1,
+  "percentageBoost": "10%"
  },
  {
   "address": "0x5102772cee16a9bbb4e9b2ec63155e53bce82d9e",
@@ -45401,15 +45401,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "7.3111183561643835929772",
-  "total": "7.3111183561643835929772",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "9.0518608219178082035114",
+  "total": "9.0518608219178082035114",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xd931b9e4fd4ac2cd76845fed70c3a239ea500e48",
@@ -45449,15 +45449,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "6.5459704109589041376432",
-  "total": "6.5459704109589041376432",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "8.1045347945205479311784",
+  "total": "8.1045347945205479311784",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xcc26c09b23f3ab64abace1a14f39da51a9f28b20",
@@ -45529,15 +45529,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "44.3399120547945207379734",
-  "total": "44.3399120547945207379734",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "54.8970339726027396310133",
+  "total": "54.8970339726027396310133",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xbd1971923e00d508fdc76460a8550e08dc4dadd8",
@@ -45711,15 +45711,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "6.907119452054794511214",
-  "total": "6.907119452054794511214",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "8.7739084931506848717696",
+  "total": "8.7739084931506848717696",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x573068628665a40aa2dddfd5ec3c90167424a9ee",
@@ -45899,15 +45899,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "22.1498564383561644784896",
-  "total": "22.1498564383561644784896",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "27.4236317808219177607552",
+  "total": "27.4236317808219177607552",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x901bc1add7cecae1c353e25e1b5eb91a2ff3c4c9",
@@ -46426,15 +46426,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "2.9347126027397260399746",
-  "total": "2.9347126027397260399746",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "3.6334536986301369800127",
+  "total": "3.6334536986301369800127",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xba94f0f09c1a19f91dbc4d46adf660b67604d4db",
@@ -46637,15 +46637,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "23.894837260273972508418",
-  "total": "23.894837260273972508418",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "30.1829523287671234826028",
+  "total": "30.1829523287671234826028",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0x9bdfa9cd5ba914ffb2b7d622629719177f7eb8f2",
@@ -47319,15 +47319,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "2.188171232876712338145",
-  "total": "2.188171232876712338145",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "2.7091643835616438309275",
+  "total": "2.7091643835616438309275",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xafec42edef003b153dce540b333829f4bbca0166",
@@ -47510,15 +47510,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "21.84891780821917817583",
-  "total": "21.84891780821917817583",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "27.051041095890410912085",
+  "total": "27.051041095890410912085",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x0825d6c1d8e93b29c8f057e90457bb938061f6ad",
@@ -47619,15 +47619,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "1.76622945205479453261",
-  "total": "1.76622945205479453261",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "2.1970171232876712333075",
+  "total": "2.1970171232876712333075",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x885ae1bdb7d0bc3d75817a9a2a67854fe71ea6c2",
@@ -48436,15 +48436,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "5.79600000000000002484",
-  "total": "5.79600000000000002484",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "7.17599999999999998758",
+  "total": "7.17599999999999998758",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x44462abbe43369ee246dcfa95e0827742438291b",
@@ -48796,15 +48796,15 @@
    "re-delegate": false,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "136.8190800000000001900265",
-  "total": "136.8190800000000001900265",
-  "boost": 0.03,
-  "percentageBoost": "3%"
+  "totalRemaining": "174.8243799999999991638834",
+  "total": "174.8243799999999991638834",
+  "boost": 0.08,
+  "percentageBoost": "8%"
  },
  {
   "address": "0xb87399074b6583dfb27790caefac4cfb62752f02",
@@ -49439,15 +49439,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "0.072256438356164383464",
-  "total": "0.072256438356164383464",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "0.0917852054794520541696",
+  "total": "0.0917852054794520541696",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x349285f6ffd74c274eca8e940645de111916791e",
@@ -49721,15 +49721,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "31.7377197260273971349935",
-  "total": "31.7377197260273971349935",
-  "boost": 0.04,
-  "percentageBoost": "4%"
+  "totalRemaining": "40.0897512328767125876801",
+  "total": "40.0897512328767125876801",
+  "boost": 0.09,
+  "percentageBoost": "9%"
  },
  {
   "address": "0x81e6a961ac810293c776a44b9a13b0ce88fcc59e",
@@ -50304,15 +50304,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "392.2935263013698646949566",
-  "total": "392.2935263013698646949566",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "485.6967468493150676525217",
+  "total": "485.6967468493150676525217",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x29e50f874cb7a5cd5c432d10f0cd1e0b158e0b0d",
@@ -50353,15 +50353,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "238.19178082191780924",
-  "total": "238.19178082191780924",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "294.90410958904109538",
+  "total": "294.90410958904109538",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xa242db62ed8952260e3e29e943f6f19e8ae14fcd",
@@ -50835,15 +50835,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "3.682108904109589066242",
-  "total": "3.682108904109589066242",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "4.5801842465753424666515",
+  "total": "4.5801842465753424666515",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x623b1b2cd4d7deea5cd9e596958117422c15564f",
@@ -51577,15 +51577,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "85.249298630136986666724",
-  "total": "85.249298630136986666724",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "105.546750684931506666638",
+  "total": "105.546750684931506666638",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x4d18f430055f1404e32069288d55350782cd1cfa",
@@ -51640,15 +51640,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "7.796206849315068526563",
-  "total": "7.796206849315068526563",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "9.6524465753424657367185",
+  "total": "9.6524465753424657367185",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xe118048c08725a130c3fd026404f8d8779efc264",
@@ -51755,15 +51755,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "55.5998243835616440739014",
-  "total": "55.5998243835616440739014",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "68.8378778082191779630493",
+  "total": "68.8378778082191779630493",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xd5a24db702d12e5b58d9003ef74c67f1884b4868",
@@ -52666,15 +52666,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "3.750456164383561659909",
-  "total": "3.750456164383561659909",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "4.6434219178082191700455",
+  "total": "4.6434219178082191700455",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x3d445e0264956ce6102b8c0ccc1d27217d3c5653",
@@ -53140,15 +53140,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "200.3518578082191789408426",
-  "total": "200.3518578082191789408426",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "248.0546810958904105295787",
+  "total": "248.0546810958904105295787",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x28c19cf63baf50b26d7bfe0a97fa9adbb1edf18a",
@@ -53183,15 +53183,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "22.0172572602739726970994",
-  "total": "22.0172572602739726970994",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "27.2594613698630136514503",
+  "total": "27.2594613698630136514503",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xcb2e9be6d5f66b011b19c57d1bd2b7d8e6cb62e0",
@@ -53243,15 +53243,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "0.7181395890410958894405",
-  "total": "0.7181395890410958894405",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "0.9122313698630136924192",
+  "total": "0.9122313698630136924192",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x40377a6641805858eb1bddd7f478a345a9e65bb8",
@@ -53358,15 +53358,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "52.6348947945205481707836",
-  "total": "52.6348947945205481707836",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "65.1670126027397259146082",
+  "total": "65.1670126027397259146082",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xf3a0803a37064a52c7222de63a2d7eede4b17864",
@@ -54221,15 +54221,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "3.5735441095890411112056",
-  "total": "3.5735441095890411112056",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "4.4243879452054794443972",
+  "total": "4.4243879452054794443972",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x12abb1f07a8a12d2f1b9b6805e0a28bfd6518a95",
@@ -54471,15 +54471,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "17.9636894520547946432268",
-  "total": "17.9636894520547946432268",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "22.3450771232876712372581",
+  "total": "22.3450771232876712372581",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x49871414426d6da8a45138e78174852232e5972a",
@@ -55416,15 +55416,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "8.6301369863013699",
-  "total": "8.6301369863013699",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "10.68493150684931505",
+  "total": "10.68493150684931505",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x1e18b8b6f27568023e0b577cbee1889391b2f444",
@@ -55736,15 +55736,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "2.6889550684931506964556",
-  "total": "2.6889550684931506964556",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "3.3291824657534246517722",
+  "total": "3.3291824657534246517722",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x1b70c84dde097f683a401480277fd3f7655fb8a8",
@@ -55872,15 +55872,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "5.6888769863013698873946",
-  "total": "5.6888769863013698873946",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "7.0433715068493150563027",
+  "total": "7.0433715068493150563027",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x097a8691f11af7f571f312043930f5f2a43b3848",
@@ -56133,15 +56133,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "18.9641679452054795333298",
-  "total": "18.9641679452054795333298",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "23.4794460273972602333351",
+  "total": "23.4794460273972602333351",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x6b35415c6a890b49b060570649b089577e903269",
@@ -56277,15 +56277,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "0.06789041095890410988",
-  "total": "0.06789041095890410988",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "0.08405479452054794506",
+  "total": "0.08405479452054794506",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x595140c2c8a3a7e3652219fd0d4d8d388b55bea7",
@@ -56970,15 +56970,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "16.992954520547945182516",
-  "total": "16.992954520547945182516",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "21.5856449315068491681024",
+  "total": "21.5856449315068491681024",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x0956d3bca44c937ec07f758a170f8b2bd11827f3",
@@ -58386,15 +58386,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "44.571550684931507040336",
-  "total": "44.571550684931507040336",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "55.183824657534246479832",
+  "total": "55.183824657534246479832",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xb2e76a618ffad958e93c43371ec80175a172c4a0",
@@ -58474,15 +58474,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "221.550517808219179031694",
-  "total": "221.550517808219179031694",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "274.300641095890410484153",
+  "total": "274.300641095890410484153",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xfa73352e64707c39c1218da4beaacacb9ac14fd3",
@@ -58880,15 +58880,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "17.2470295890410959643268",
-  "total": "17.2470295890410959643268",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "21.3534652054794520178366",
+  "total": "21.3534652054794520178366",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xdd2487b7b9e9f4fd2dff4a3dfb509b29cf6a5307",
@@ -59181,15 +59181,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "12.693694520547945259881",
-  "total": "12.693694520547945259881",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "15.7160027397260273700595",
+  "total": "15.7160027397260273700595",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x2e8ce3e71ca0fd0e102f473da55f12f697311ecb",
@@ -60770,15 +60770,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "2.7137731506849315253824",
-  "total": "2.7137731506849315253824",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "3.3756690410958904116208",
+  "total": "3.3756690410958904116208",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x2c33ef4d76a4e3089e3c2abedcc267868ffbbccc",
@@ -60934,15 +60934,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "9.3532043835616438757016",
-  "total": "9.3532043835616438757016",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "11.5801578082191780621492",
+  "total": "11.5801578082191780621492",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x564e2e46bc8e75ea219dfb8e1236e4ad092b83f9",
@@ -61036,15 +61036,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "71.58263013698630185872",
-  "total": "71.58263013698630185872",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "89.04180821917808220924",
+  "total": "89.04180821917808220924",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x8dfe729471621fe43e3185fac86249f6d613b0d5",
@@ -62198,15 +62198,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "34.7252778082191782310144",
-  "total": "34.7252778082191782310144",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "42.9932010958904108844928",
+  "total": "42.9932010958904108844928",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x432a4819b33eed2daf7074aa1978915aa33d14a5",
@@ -62280,15 +62280,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "1.8105768493150685055156",
-  "total": "1.8105768493150685055156",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "2.2521809589041095894827",
+  "total": "2.2521809589041095894827",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x38aa5066b633f81a39f2cc7d8942b52fc4e921bb",
@@ -63187,15 +63187,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "0.4888772602739726060784",
-  "total": "0.4888772602739726060784",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "0.6081156164383561645028",
+  "total": "0.6081156164383561645028",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0xb1acbee85a41b625273a387ff8a3455535cc2a73",
@@ -63218,15 +63218,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "0.842343013698630135848",
-  "total": "0.842343013698630135848",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "1.0700032876712328694272",
+  "total": "1.0700032876712328694272",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x27650a2973c33a422339957bab165f54d2ec2a1c",
@@ -64349,15 +64349,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "5.0766953424657534464148",
-  "total": "5.0766953424657534464148",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "6.2854323287671232767926",
+  "total": "6.2854323287671232767926",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x659e1dd6133c9b99f07c87232444f6ff122a1445",
@@ -64660,15 +64660,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "10.441257534246575387214",
-  "total": "10.441257534246575387214",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "12.927271232876712306393",
+  "total": "12.927271232876712306393",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xa9f1bdcc979d2ff95b28223c1de182228a0266b4",
@@ -66064,15 +66064,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "0.9482104109589041136528",
-  "total": "0.9482104109589041136528",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "1.1739747945205479431736",
+  "total": "1.1739747945205479431736",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x98a9181d4b10edcb706fa02537604e2d53d95a91",
@@ -66626,15 +66626,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "7.738918493150684984358",
-  "total": "7.738918493150684984358",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "9.6264595890410958922985",
+  "total": "9.6264595890410958922985",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x1cd00e043275fa3d6d4f29b6a5e426f967eab307",
@@ -66819,15 +66819,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "730.9384158904109620367028",
-  "total": "730.9384158904109620367028",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "904.9713720547945189816486",
+  "total": "904.9713720547945189816486",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0xe43f1e7989357cba80151df00401d21a8754da9e",
@@ -66941,15 +66941,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "40.97186301369863031258",
-  "total": "40.97186301369863031258",
-  "boost": 0.06,
-  "percentageBoost": "6%"
+  "totalRemaining": "50.72706849315068484371",
+  "total": "50.72706849315068484371",
+  "boost": 0.11,
+  "percentageBoost": "11%"
  },
  {
   "address": "0x857d5884fc42cea646bd62cc84f806aeb9a2ae6f",
@@ -68489,15 +68489,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "470.9656689041095922574468",
-  "total": "470.9656689041095922574468",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "585.8353442465753425806231",
+  "total": "585.8353442465753425806231",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0xabe97aa5c4faf7ecfc6b9b8d44883871ba47a0e5",
@@ -68703,15 +68703,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "14.855479452054794622",
-  "total": "14.855479452054794622",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "18.4787671232876712365",
+  "total": "18.4787671232876712365",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0xb7774735f68a751984b5fff8f0954698be2120d9",
@@ -69405,15 +69405,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "6.292280821917808210675",
-  "total": "6.292280821917808210675",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "7.99289726027397254832",
+  "total": "7.99289726027397254832",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0xd544e1c38582deb641ea64ac663d0589ecbf28a3",
@@ -70133,15 +70133,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "1.146539726027397268104",
-  "total": "1.146539726027397268104",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "1.426183561643835616718",
+  "total": "1.426183561643835616718",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x42d7f7c32c976773e74cbbb7ed276b60cbbf3005",
@@ -70757,15 +70757,15 @@
    "re-delegate": true,
    "governance": true,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "38.8702578082191783476472",
-  "total": "38.8702578082191783476472",
-  "boost": 0.055,
-  "percentageBoost": "5.5%"
+  "totalRemaining": "48.3508084931506849409874",
+  "total": "48.3508084931506849409874",
+  "boost": 0.105,
+  "percentageBoost": "10.5%"
  },
  {
   "address": "0x72c53e2496414345608fe066ef586ba0898bfbbc",
@@ -72967,15 +72967,15 @@
    "re-delegate": true,
    "governance": false,
    "market": true,
-   "market-proposal": false,
+   "market-proposal": true,
    "special": false
   },
   "totalPreStake": "0",
   "totalEarlyAdopter": "0",
-  "totalRemaining": "0.091232876712328767",
-  "total": "0.091232876712328767",
-  "boost": 0.035,
-  "percentageBoost": "3.5%"
+  "totalRemaining": "0.1158904109589041088",
+  "total": "0.1158904109589041088",
+  "boost": 0.085,
+  "percentageBoost": "8.5%"
  },
  {
   "address": "0x64bdc09311843c81a3cc8a067ee4784c9bd3b189",

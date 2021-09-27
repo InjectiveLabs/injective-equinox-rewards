@@ -94,7 +94,7 @@ const checkReDelegateBoost = messageTypes => {
   );
 };
 
-const checkMarketLaunchBoost = (proposals, spotMarkets, derivativeMarkets) => {
+const checkMarketLaunchBoost = proposals => {
   return proposals.some(proposal => {
     const proposalIsPerpetualMarket =
       proposal['@type'] ===
@@ -106,24 +106,11 @@ const checkMarketLaunchBoost = (proposals, spotMarkets, derivativeMarkets) => {
       proposal['@type'] ===
       '/injective.exchange.v1beta1.SpotMarketLaunchProposal';
 
-    if (proposalIsPerpetualMarket || proposalIsExpiryFuturesMarket) {
-      const market = `${proposal.oracle_base}-${proposal.oracle_quote}-${proposal.quote_denom}`;
-
-      return (
-        derivativeMarkets.find(
-          m => `${m.base_denom}-${m.quote_denom}-${m.quote_denom}` === market,
-        ) !== undefined
-      );
-    }
-
-    if (proposalIsSpotMarket) {
-      const market = `${proposal.base_denom}-${proposal.quote_denom}`;
-
-      return (
-        spotMarkets.find(m => `${m.base_denom}-${m.quote_denom}` === market) !==
-        undefined
-      );
-    }
+    return (
+      proposalIsPerpetualMarket ||
+      proposalIsExpiryFuturesMarket ||
+      proposalIsSpotMarket
+    );
   });
 };
 

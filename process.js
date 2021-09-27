@@ -59,11 +59,7 @@ const [dailyAdopterPeriodStart, dailyAdopterPeriodEnd] = [
       rewards[Reward.Claim] = checkClaimBoost(user.txs);
       rewards[Reward.Governance] = checkGovernanceBoost(user.txs);
       rewards[Reward.NewMarket] = checkProposalBoost(user.txs);
-      rewards[Reward.MarketProposal] = checkMarketLaunchBoost(
-        user.proposals,
-        spotMarkets,
-        derivativeMarkets,
-      );
+      rewards[Reward.MarketProposal] = checkMarketLaunchBoost(user.proposals);
       rewards[Reward.Special] = checkSpecialBoost(user.txs);
 
       const boost = getTotalBoost(rewards, rewardsBoost);
