@@ -67,7 +67,7 @@ const fetchAccountNonce = async injAddress => {
 
     return data.account.base_account.sequence || 0;
   } catch (e) {
-    console.error(e);
+    return 0;
   }
 };
 
